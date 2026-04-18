@@ -1438,7 +1438,7 @@ function App() {
                                 onClick={() => onDeleteAccount(a)}
                                 aria-label="Delete card"
                               >
-                                Delete
+                                X
                               </button>
                             </div>
                           </div>

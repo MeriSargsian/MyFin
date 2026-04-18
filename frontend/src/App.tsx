@@ -332,7 +332,6 @@ function App() {
   const [reAppLoading, setReAppLoading] = useState(false)
   const [reApp, setReApp] = useState<RealEstateAppreciationResponse | null>(null)
 
-  const [vehValLoading, setVehValLoading] = useState(false)
   const [vehVal, setVehVal] = useState<VehicleValueResponse | null>(null)
   const vehValCacheRef = useRef<
     Map<
@@ -379,7 +378,6 @@ function App() {
     setReTxCostPct('6')
     setReApp(null)
     setVehVal(null)
-    setVehValLoading(false)
     setCalcError('')
     setCalcRan(false)
     setCalcNow(Date.now())
@@ -1011,11 +1009,53 @@ function App() {
       const dt = new Date(t.date)
       if (dt.getFullYear() !== year) continue
       const m = dt.getMonth()
-      const amt = Number(t.amount)
+      const amt = Math.abs(Number(t.amount) || 0)
       if (t.type === 'income') income[m] += amt
       else spendings[m] += amt
     }
     return { year, income, spendings }
+  }, [trendsTxs, trendsYear])
+
+  const trendsMetrics = useMemo(() => {
+    const now = new Date()
+    const currentYear = now.getFullYear()
+    const currentMonth = now.getMonth()
+
+    const bizIncome = Array.from({ length: 12 }, () => 0)
+    const bizSpendings = Array.from({ length: 12 }, () => 0)
+
+    for (const t of trendsTxs) {
+      if (!t.is_business) continue
+      const dt = new Date(t.date)
+      if (dt.getFullYear() !== trendsYear) continue
+      const m = dt.getMonth()
+      const amt = Math.abs(Number(t.amount) || 0)
+      if (t.type === 'income') bizIncome[m] += amt
+      else bizSpendings[m] += amt
+    }
+
+    const hasData = (idx: number) => (bizIncome[idx] || 0) > 0 || (bizSpendings[idx] || 0) > 0
+
+    let idx = currentMonth
+    if (trendsYear !== currentYear || !hasData(idx)) {
+      let found = -1
+      for (let i = 11; i >= 0; i--) {
+        if (hasData(i)) {
+          found = i
+          break
+        }
+      }
+      idx = found >= 0 ? found : currentMonth
+    }
+
+    const revenue = bizIncome[idx] || 0
+    const expenses = bizSpendings[idx] || 0
+    const profit = revenue - expenses
+    const estimatedTaxes = Math.max(0, profit) * 0.25
+
+    const label = trendsYear === currentYear ? 'this month' : monthShort(idx)
+
+    return { idx, revenue, expenses, profit, estimatedTaxes, label }
   }, [trendsTxs, trendsYear])
 
   const trendSeries = useMemo(() => {
@@ -1257,7 +1297,7 @@ function App() {
         </div>
       </div>
 
-      <div className="page">
+      <div className={activeTab === 'dashboard' ? 'page pageDashboard' : 'page'}>
         {activeTab === 'dashboard' ? (
           <div className="dashPage">
             <h1>Dashboard</h1>
@@ -1467,6 +1507,29 @@ function App() {
                       </text>
                     </svg>
                   </div>
+
+                  <div className="dashRow trendMetrics">
+                    <div className="stat">
+                      <div className="muted">Revenue</div>
+                      <div className="statValue">{fmtMoney(trendsMetrics.revenue)}</div>
+                      <div className="muted">{trendsMetrics.label}</div>
+                    </div>
+                    <div className="stat">
+                      <div className="muted">Expenses</div>
+                      <div className="statValue">{fmtMoney(trendsMetrics.expenses)}</div>
+                      <div className="muted">{trendsMetrics.label}</div>
+                    </div>
+                    <div className="stat">
+                      <div className="muted">Profit</div>
+                      <div className="statValue">{fmtMoney(trendsMetrics.profit)}</div>
+                      <div className="muted">Revenue - Expenses</div>
+                    </div>
+                    <div className="stat">
+                      <div className="muted">Estimated Taxes</div>
+                      <div className="statValue">{fmtMoney(trendsMetrics.estimatedTaxes)}</div>
+                      <div className="muted">Est. tax liability</div>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="card">
@@ -1475,17 +1538,17 @@ function App() {
                   {subsError ? <div className="error">{subsError}</div> : null}
                   {!subsLoading && !subsError ? (
                     subscriptions.length > 0 ? (
-                      <div className="list" style={{ marginTop: 10 }}>
+                      <div className="subscriptionsWrap">
                         {subscriptions.map((s) => (
-                          <div key={s.merchant} className="item">
-                            <div>
-                              <div style={{ fontWeight: 700 }}>{s.merchant}</div>
+                          <div key={s.merchant} className="subscriptionCard">
+                            <div className="subscriptionLeft">
+                              <div className="subscriptionTitle">{s.merchant}</div>
                               <div className="muted">
                                 {s.count} payments · {s.cadenceType} · ~{s.cadenceDays}d · Last: {s.last}
                               </div>
                             </div>
-                            <div style={{ textAlign: 'right' }}>
-                              <div style={{ fontWeight: 700 }}>{fmtMoney(s.total)}</div>
+                            <div className="subscriptionMetrics">
+                              <div className="subscriptionYearly">{fmtMoney(s.total)}</div>
                               <div className="muted">~{fmtMoney(s.monthlyCost)} / month</div>
                             </div>
                           </div>
@@ -1877,8 +1940,6 @@ function App() {
                             },
                             inFlight: p,
                           })
-
-                          setVehValLoading(true)
                           try {
                             const resp = await p
                             vehValCacheRef.current.set(key, { fetchedAt: Date.now(), data: resp, inFlight: null })
@@ -1903,7 +1964,7 @@ function App() {
                               error: e instanceof Error ? e.message : 'Failed to fetch vehicle value',
                             })
                           } finally {
-                            setVehValLoading(false)
+                            // no visible loading UI
                           }
                         }
                       }

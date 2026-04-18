@@ -1,0 +1,1570 @@
+Date,Type,Description,Account_Type,Card_Name,Amount,Category
+2024-04-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2400.83,Services
+2024-04-18,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-71.33,Food & Drink
+2024-04-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2940.45,Services
+2024-04-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-04-19,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-155.53,Health
+2024-04-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2859.64,Services
+2024-04-20,Expense,Supply Warehouse,Business,Business Checking *9901,-537.19,Services
+2024-04-20,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-190.75,Food & Drink
+2024-04-21,Expense,Supply Warehouse,Business,Business Checking *9901,-366.28,Services
+2024-04-21,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-118.53,Entertainment
+2024-04-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2371.48,Services
+2024-04-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1776.14,Services
+2024-04-23,Expense,Health Purchase,Personal,Travel Rewards *5541,-165.05,Health
+2024-04-24,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-66.71,Shopping
+2024-04-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1176.34,Services
+2024-04-25,Expense,Supply Warehouse,Business,Business Checking *9901,-164.63,Services
+2024-04-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2121.05,Services
+2024-04-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2464.56,Services
+2024-04-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1380.66,Services
+2024-04-29,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-153.73,Food & Drink
+2024-04-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1098.98,Services
+2024-05-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-05-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-05-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2188.91,Services
+2024-05-02,Expense,Transport Purchase,Personal,Travel Rewards *5541,-178.68,Transport
+2024-05-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2132.78,Services
+2024-05-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-05-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1703.68,Services
+2024-05-04,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-95.31,Food & Drink
+2024-05-05,Expense,Supply Warehouse,Business,Business Checking *9901,-326.96,Services
+2024-05-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-05-05,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-121.78,Entertainment
+2024-05-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2203.58,Services
+2024-05-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2511.32,Services
+2024-05-07,Expense,Supply Warehouse,Business,Business Checking *9901,-474.44,Services
+2024-05-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-05-07,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-49.48,Entertainment
+2024-05-08,Expense,Supply Warehouse,Business,Business Checking *9901,-239.45,Services
+2024-05-08,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-119.76,Food & Drink
+2024-05-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2081.61,Services
+2024-05-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-05-09,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-42.76,Transport
+2024-05-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2610.24,Services
+2024-05-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-05-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-05-10,Expense,Transport Purchase,Personal,Travel Rewards *5541,-166.56,Transport
+2024-05-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2857.61,Services
+2024-05-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-05-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1281.87,Bills
+2024-05-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1281.87,Bills
+2024-05-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1460.52,Bills
+2024-05-12,Payment,Payment Received,Personal,Travel Rewards *5541,1460.52,Bills
+2024-05-12,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-64.77,Shopping
+2024-05-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2000.69,Services
+2024-05-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-05-13,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-42.31,Entertainment
+2024-05-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2303.71,Services
+2024-05-14,Expense,Transport Purchase,Personal,Travel Rewards *5541,-81.0,Transport
+2024-05-15,Expense,Supply Warehouse,Business,Business Checking *9901,-304.25,Services
+2024-05-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-05-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2100.85,Services
+2024-05-16,Expense,Supply Warehouse,Business,Business Checking *9901,-240.67,Services
+2024-05-16,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-189.2,Shopping
+2024-05-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1505.29,Services
+2024-05-17,Expense,Supply Warehouse,Business,Business Checking *9901,-516.78,Services
+2024-05-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-05-17,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-93.14,Travel
+2024-05-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1564.06,Services
+2024-05-18,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-94.01,Food & Drink
+2024-05-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-05-19,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-68.15,Food & Drink
+2024-05-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2154.32,Services
+2024-05-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1666.28,Services
+2024-05-21,Expense,Health Purchase,Personal,Travel Rewards *5541,-131.56,Health
+2024-05-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1383.76,Services
+2024-05-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1546.02,Services
+2024-05-24,Expense,Transport Purchase,Personal,Travel Rewards *5541,-20.65,Transport
+2024-05-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2894.31,Services
+2024-05-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1721.12,Services
+2024-05-27,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-109.46,Transport
+2024-05-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2150.1,Services
+2024-05-29,Expense,Travel Purchase,Personal,Travel Rewards *5541,-192.75,Travel
+2024-05-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1129.23,Services
+2024-05-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2000.33,Services
+2024-05-31,Expense,Supply Warehouse,Business,Business Checking *9901,-526.84,Services
+2024-05-31,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-82.09,Food & Drink
+2024-06-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2816.63,Services
+2024-06-01,Expense,Supply Warehouse,Business,Business Checking *9901,-533.66,Services
+2024-06-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-06-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-06-01,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-49.48,Travel
+2024-06-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1881.46,Services
+2024-06-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-06-03,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-174.51,Shopping
+2024-06-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2652.04,Services
+2024-06-04,Expense,Supply Warehouse,Business,Business Checking *9901,-530.85,Services
+2024-06-05,Expense,Supply Warehouse,Business,Business Checking *9901,-222.56,Services
+2024-06-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-06-05,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-151.32,Transport
+2024-06-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2022.22,Services
+2024-06-06,Expense,Supply Warehouse,Business,Business Checking *9901,-195.67,Services
+2024-06-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2501.01,Services
+2024-06-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-06-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1698.15,Services
+2024-06-08,Expense,Supply Warehouse,Business,Business Checking *9901,-220.2,Services
+2024-06-08,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-119.3,Shopping
+2024-06-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-06-09,Expense,Health Purchase,Personal,Travel Rewards *5541,-121.12,Health
+2024-06-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2149.98,Services
+2024-06-10,Expense,Supply Warehouse,Business,Business Checking *9901,-259.12,Services
+2024-06-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-06-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-06-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2292.0,Services
+2024-06-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-06-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1818.23,Bills
+2024-06-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1818.23,Bills
+2024-06-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1697.97,Bills
+2024-06-12,Payment,Payment Received,Personal,Travel Rewards *5541,1697.97,Bills
+2024-06-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1154.84,Services
+2024-06-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-06-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1113.18,Services
+2024-06-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1283.76,Services
+2024-06-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-06-16,Expense,Travel Purchase,Personal,Travel Rewards *5541,-32.24,Travel
+2024-06-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1056.75,Services
+2024-06-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-06-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2383.8,Services
+2024-06-18,Expense,Supply Warehouse,Business,Business Checking *9901,-395.11,Services
+2024-06-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-06-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2713.28,Services
+2024-06-20,Expense,Supply Warehouse,Business,Business Checking *9901,-393.36,Services
+2024-06-20,Expense,Travel Purchase,Personal,Travel Rewards *5541,-171.5,Travel
+2024-06-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2535.89,Services
+2024-06-21,Expense,Transport Purchase,Personal,Travel Rewards *5541,-71.85,Transport
+2024-06-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1052.86,Services
+2024-06-22,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-100.68,Shopping
+2024-06-23,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-120.96,Shopping
+2024-06-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2920.99,Services
+2024-06-24,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-196.54,Transport
+2024-06-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1543.81,Services
+2024-06-25,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-108.06,Travel
+2024-06-26,Expense,Supply Warehouse,Business,Business Checking *9901,-473.74,Services
+2024-06-26,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-37.21,Food & Drink
+2024-06-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1411.55,Services
+2024-06-27,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-87.49,Food & Drink
+2024-06-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2149.34,Services
+2024-06-28,Expense,Supply Warehouse,Business,Business Checking *9901,-275.6,Services
+2024-06-28,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-149.58,Shopping
+2024-06-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1455.24,Services
+2024-06-29,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-131.14,Entertainment
+2024-06-30,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-32.4,Food & Drink
+2024-07-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,962.66,Services
+2024-07-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-07-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-07-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1358.59,Services
+2024-07-02,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-130.67,Health
+2024-07-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-07-03,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-58.48,Shopping
+2024-07-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1078.06,Services
+2024-07-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1389.66,Services
+2024-07-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-07-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1898.29,Services
+2024-07-06,Expense,Supply Warehouse,Business,Business Checking *9901,-520.75,Services
+2024-07-06,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-53.42,Entertainment
+2024-07-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-07-07,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-88.3,Shopping
+2024-07-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1832.3,Services
+2024-07-08,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-79.93,Food & Drink
+2024-07-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2134.15,Services
+2024-07-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-07-09,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-198.36,Shopping
+2024-07-10,Expense,Supply Warehouse,Business,Business Checking *9901,-306.77,Services
+2024-07-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-07-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-07-10,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-152.72,Entertainment
+2024-07-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1826.68,Services
+2024-07-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-07-11,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-19.72,Travel
+2024-07-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2312.84,Services
+2024-07-12,Expense,Supply Warehouse,Business,Business Checking *9901,-554.89,Services
+2024-07-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1710.7,Bills
+2024-07-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1710.7,Bills
+2024-07-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1594.09,Bills
+2024-07-12,Payment,Payment Received,Personal,Travel Rewards *5541,1594.09,Bills
+2024-07-12,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-83.22,Travel
+2024-07-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1863.09,Services
+2024-07-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-07-14,Expense,Supply Warehouse,Business,Business Checking *9901,-350.49,Services
+2024-07-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1089.36,Services
+2024-07-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-07-15,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-73.64,Food & Drink
+2024-07-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1773.78,Services
+2024-07-16,Expense,Supply Warehouse,Business,Business Checking *9901,-382.08,Services
+2024-07-16,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-54.86,Travel
+2024-07-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-07-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1546.52,Services
+2024-07-18,Expense,Travel Purchase,Personal,Travel Rewards *5541,-29.05,Travel
+2024-07-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1545.81,Services
+2024-07-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-07-19,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-142.36,Travel
+2024-07-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2467.97,Services
+2024-07-20,Expense,Supply Warehouse,Business,Business Checking *9901,-363.43,Services
+2024-07-20,Expense,Transport Purchase,Personal,Travel Rewards *5541,-126.88,Transport
+2024-07-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,964.44,Services
+2024-07-22,Expense,Transport Purchase,Personal,Travel Rewards *5541,-129.71,Transport
+2024-07-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2666.19,Services
+2024-07-23,Expense,Supply Warehouse,Business,Business Checking *9901,-210.43,Services
+2024-07-23,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-23.89,Food & Drink
+2024-07-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1565.27,Services
+2024-07-25,Expense,Health Purchase,Personal,Travel Rewards *5541,-120.7,Health
+2024-07-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1329.3,Services
+2024-07-26,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-166.25,Entertainment
+2024-07-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2698.13,Services
+2024-07-27,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-174.76,Health
+2024-07-28,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-177.62,Transport
+2024-07-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2554.84,Services
+2024-07-29,Expense,Supply Warehouse,Business,Business Checking *9901,-361.5,Services
+2024-07-29,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-31.88,Food & Drink
+2024-07-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2921.05,Services
+2024-07-30,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-35.81,Shopping
+2024-07-31,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-29.9,Entertainment
+2024-08-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,930.69,Services
+2024-08-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-08-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-08-01,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-146.87,Food & Drink
+2024-08-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1409.51,Services
+2024-08-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1949.68,Services
+2024-08-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-08-03,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-25.59,Entertainment
+2024-08-04,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-64.58,Food & Drink
+2024-08-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2052.72,Services
+2024-08-05,Expense,Supply Warehouse,Business,Business Checking *9901,-169.25,Services
+2024-08-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-08-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2329.88,Services
+2024-08-06,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-78.45,Entertainment
+2024-08-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-08-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1949.84,Services
+2024-08-08,Expense,Supply Warehouse,Business,Business Checking *9901,-241.22,Services
+2024-08-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2545.61,Services
+2024-08-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-08-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2914.35,Services
+2024-08-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-08-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-08-10,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-106.77,Entertainment
+2024-08-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-08-11,Expense,Travel Purchase,Personal,Travel Rewards *5541,-79.65,Travel
+2024-08-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1315.29,Services
+2024-08-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1839.3,Bills
+2024-08-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1839.3,Bills
+2024-08-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1410.25,Bills
+2024-08-12,Payment,Payment Received,Personal,Travel Rewards *5541,1410.25,Bills
+2024-08-12,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-128.38,Shopping
+2024-08-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2592.79,Services
+2024-08-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-08-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2090.24,Services
+2024-08-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-08-15,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-65.53,Travel
+2024-08-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1159.7,Services
+2024-08-16,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-172.92,Travel
+2024-08-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2529.48,Services
+2024-08-17,Expense,Supply Warehouse,Business,Business Checking *9901,-212.3,Services
+2024-08-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-08-17,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-79.97,Entertainment
+2024-08-18,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-40.54,Entertainment
+2024-08-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2958.99,Services
+2024-08-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-08-19,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-25.25,Shopping
+2024-08-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1034.58,Services
+2024-08-20,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-130.78,Travel
+2024-08-21,Expense,Supply Warehouse,Business,Business Checking *9901,-137.99,Services
+2024-08-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2506.08,Services
+2024-08-22,Expense,Health Purchase,Personal,Travel Rewards *5541,-122.54,Health
+2024-08-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2350.01,Services
+2024-08-23,Expense,Supply Warehouse,Business,Business Checking *9901,-298.95,Services
+2024-08-23,Expense,Travel Purchase,Personal,Travel Rewards *5541,-75.85,Travel
+2024-08-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1791.38,Services
+2024-08-24,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-108.19,Transport
+2024-08-25,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-21.47,Entertainment
+2024-08-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2724.71,Services
+2024-08-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1029.57,Services
+2024-08-27,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-57.86,Transport
+2024-08-28,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-66.03,Transport
+2024-08-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2194.26,Services
+2024-08-29,Expense,Supply Warehouse,Business,Business Checking *9901,-494.64,Services
+2024-08-29,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-53.85,Travel
+2024-08-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1759.53,Services
+2024-08-30,Expense,Supply Warehouse,Business,Business Checking *9901,-301.06,Services
+2024-08-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2367.26,Services
+2024-08-31,Expense,Supply Warehouse,Business,Business Checking *9901,-264.55,Services
+2024-08-31,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-153.75,Food & Drink
+2024-09-01,Expense,Supply Warehouse,Business,Business Checking *9901,-538.57,Services
+2024-09-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-09-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-09-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1100.65,Services
+2024-09-02,Expense,Supply Warehouse,Business,Business Checking *9901,-554.01,Services
+2024-09-02,Expense,Transport Purchase,Personal,Travel Rewards *5541,-92.89,Transport
+2024-09-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2424.76,Services
+2024-09-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-09-04,Expense,Transport Purchase,Personal,Travel Rewards *5541,-140.31,Transport
+2024-09-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2309.53,Services
+2024-09-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-09-05,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-89.86,Health
+2024-09-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1136.94,Services
+2024-09-06,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-80.34,Transport
+2024-09-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1324.93,Services
+2024-09-07,Expense,Supply Warehouse,Business,Business Checking *9901,-255.69,Services
+2024-09-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-09-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2060.84,Services
+2024-09-09,Expense,Supply Warehouse,Business,Business Checking *9901,-496.28,Services
+2024-09-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-09-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2290.45,Services
+2024-09-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-09-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-09-10,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-181.35,Health
+2024-09-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-09-11,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-107.11,Travel
+2024-09-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1894.36,Services
+2024-09-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1926.89,Bills
+2024-09-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1926.89,Bills
+2024-09-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1620.71,Bills
+2024-09-12,Payment,Payment Received,Personal,Travel Rewards *5541,1620.71,Bills
+2024-09-12,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-46.99,Food & Drink
+2024-09-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1925.79,Services
+2024-09-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-09-13,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-51.28,Shopping
+2024-09-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1182.99,Services
+2024-09-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-09-15,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-37.24,Transport
+2024-09-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1560.04,Services
+2024-09-16,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-142.84,Health
+2024-09-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2233.62,Services
+2024-09-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-09-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1745.76,Services
+2024-09-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-09-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1140.35,Services
+2024-09-20,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-164.46,Health
+2024-09-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1312.37,Services
+2024-09-21,Expense,Supply Warehouse,Business,Business Checking *9901,-376.58,Services
+2024-09-21,Expense,Travel Purchase,Personal,Travel Rewards *5541,-145.63,Travel
+2024-09-22,Expense,Supply Warehouse,Business,Business Checking *9901,-225.3,Services
+2024-09-22,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-135.86,Shopping
+2024-09-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1002.35,Services
+2024-09-23,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-82.04,Food & Drink
+2024-09-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2802.13,Services
+2024-09-24,Expense,Transport Purchase,Personal,Travel Rewards *5541,-71.39,Transport
+2024-09-25,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-185.47,Transport
+2024-09-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2094.25,Services
+2024-09-26,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-199.92,Shopping
+2024-09-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1811.67,Services
+2024-09-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2904.29,Services
+2024-09-28,Expense,Supply Warehouse,Business,Business Checking *9901,-249.4,Services
+2024-09-28,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-28.26,Food & Drink
+2024-09-29,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-60.92,Travel
+2024-09-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2094.51,Services
+2024-10-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2782.59,Services
+2024-10-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-10-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-10-01,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-78.16,Travel
+2024-10-02,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-43.53,Food & Drink
+2024-10-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1089.18,Services
+2024-10-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-10-03,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-156.92,Shopping
+2024-10-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1909.74,Services
+2024-10-04,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-81.85,Shopping
+2024-10-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1944.1,Services
+2024-10-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-10-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2775.9,Services
+2024-10-07,Expense,Supply Warehouse,Business,Business Checking *9901,-342.22,Services
+2024-10-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-10-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1994.96,Services
+2024-10-08,Expense,Supply Warehouse,Business,Business Checking *9901,-183.56,Services
+2024-10-08,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-45.64,Entertainment
+2024-10-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-10-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1876.07,Services
+2024-10-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-10-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-10-10,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-27.92,Travel
+2024-10-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2944.66,Services
+2024-10-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-10-11,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-55.17,Health
+2024-10-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2546.24,Services
+2024-10-12,Expense,Supply Warehouse,Business,Business Checking *9901,-229.36,Services
+2024-10-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1476.05,Bills
+2024-10-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1476.05,Bills
+2024-10-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2072.96,Bills
+2024-10-12,Payment,Payment Received,Personal,Travel Rewards *5541,2072.96,Bills
+2024-10-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-10-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2223.62,Services
+2024-10-14,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-103.55,Food & Drink
+2024-10-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2114.27,Services
+2024-10-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-10-16,Expense,Supply Warehouse,Business,Business Checking *9901,-162.06,Services
+2024-10-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2864.66,Services
+2024-10-17,Expense,Supply Warehouse,Business,Business Checking *9901,-423.41,Services
+2024-10-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-10-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2470.3,Services
+2024-10-18,Expense,Supply Warehouse,Business,Business Checking *9901,-356.79,Services
+2024-10-18,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-136.38,Entertainment
+2024-10-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2221.57,Services
+2024-10-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-10-20,Expense,Supply Warehouse,Business,Business Checking *9901,-173.73,Services
+2024-10-20,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-185.16,Shopping
+2024-10-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2442.85,Services
+2024-10-21,Expense,Supply Warehouse,Business,Business Checking *9901,-334.78,Services
+2024-10-21,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-144.75,Travel
+2024-10-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2834.15,Services
+2024-10-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2655.7,Services
+2024-10-24,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-45.11,Food & Drink
+2024-10-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2969.5,Services
+2024-10-25,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-48.7,Transport
+2024-10-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2962.39,Services
+2024-10-26,Expense,Supply Warehouse,Business,Business Checking *9901,-527.68,Services
+2024-10-27,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-149.8,Food & Drink
+2024-10-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1724.72,Services
+2024-10-28,Expense,Supply Warehouse,Business,Business Checking *9901,-394.62,Services
+2024-10-28,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-36.85,Health
+2024-10-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2345.12,Services
+2024-10-29,Expense,Supply Warehouse,Business,Business Checking *9901,-137.07,Services
+2024-10-29,Expense,Transport Purchase,Personal,Travel Rewards *5541,-67.9,Transport
+2024-10-30,Expense,Travel Purchase,Personal,Travel Rewards *5541,-70.38,Travel
+2024-10-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1982.61,Services
+2024-10-31,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-134.98,Food & Drink
+2024-11-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2290.69,Services
+2024-11-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-11-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-11-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2748.16,Services
+2024-11-02,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-20.02,Travel
+2024-11-03,Expense,Supply Warehouse,Business,Business Checking *9901,-163.14,Services
+2024-11-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-11-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1113.62,Services
+2024-11-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2905.56,Services
+2024-11-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-11-06,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-60.68,Health
+2024-11-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2476.16,Services
+2024-11-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-11-07,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-63.18,Transport
+2024-11-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1549.82,Services
+2024-11-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1371.73,Services
+2024-11-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-11-09,Expense,Travel Purchase,Personal,Travel Rewards *5541,-26.07,Travel
+2024-11-10,Expense,Supply Warehouse,Business,Business Checking *9901,-243.15,Services
+2024-11-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-11-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-11-10,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-82.64,Food & Drink
+2024-11-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2235.85,Services
+2024-11-11,Expense,Supply Warehouse,Business,Business Checking *9901,-586.25,Services
+2024-11-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-11-11,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-128.27,Food & Drink
+2024-11-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2236.35,Services
+2024-11-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1753.79,Bills
+2024-11-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1753.79,Bills
+2024-11-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1307.22,Bills
+2024-11-12,Payment,Payment Received,Personal,Travel Rewards *5541,1307.22,Bills
+2024-11-12,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-38.85,Health
+2024-11-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-11-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1857.32,Services
+2024-11-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2755.73,Services
+2024-11-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-11-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2360.93,Services
+2024-11-16,Expense,Health Purchase,Personal,Travel Rewards *5541,-82.98,Health
+2024-11-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-11-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2147.19,Services
+2024-11-18,Expense,Supply Warehouse,Business,Business Checking *9901,-311.78,Services
+2024-11-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2719.78,Services
+2024-11-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-11-20,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-42.21,Shopping
+2024-11-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2838.61,Services
+2024-11-21,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-111.33,Travel
+2024-11-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2793.43,Services
+2024-11-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1447.72,Services
+2024-11-23,Expense,Supply Warehouse,Business,Business Checking *9901,-230.06,Services
+2024-11-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2149.31,Services
+2024-11-25,Expense,Health Purchase,Personal,Travel Rewards *5541,-51.07,Health
+2024-11-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1443.85,Services
+2024-11-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1791.9,Services
+2024-11-28,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-71.68,Health
+2024-11-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1449.96,Services
+2024-11-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1359.94,Services
+2024-11-30,Expense,Health Purchase,Personal,Travel Rewards *5541,-159.18,Health
+2024-12-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2024-12-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2024-12-01,Expense,Travel Purchase,Personal,Travel Rewards *5541,-40.06,Travel
+2024-12-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1099.89,Services
+2024-12-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1143.15,Services
+2024-12-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2024-12-03,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-30.64,Entertainment
+2024-12-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2107.77,Services
+2024-12-05,Expense,Supply Warehouse,Business,Business Checking *9901,-523.62,Services
+2024-12-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2024-12-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,914.17,Services
+2024-12-06,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-76.64,Food & Drink
+2024-12-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,985.97,Services
+2024-12-07,Expense,Supply Warehouse,Business,Business Checking *9901,-456.46,Services
+2024-12-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2024-12-08,Expense,Travel Purchase,Personal,Travel Rewards *5541,-108.43,Travel
+2024-12-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1134.67,Services
+2024-12-09,Expense,Supply Warehouse,Business,Business Checking *9901,-215.92,Services
+2024-12-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2024-12-09,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-135.67,Food & Drink
+2024-12-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1276.46,Services
+2024-12-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2024-12-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2024-12-10,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-173.54,Shopping
+2024-12-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2024-12-11,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-118.28,Travel
+2024-12-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1615.39,Services
+2024-12-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-2187.36,Bills
+2024-12-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,2187.36,Bills
+2024-12-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1262.07,Bills
+2024-12-12,Payment,Payment Received,Personal,Travel Rewards *5541,1262.07,Bills
+2024-12-12,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-131.42,Shopping
+2024-12-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1161.64,Services
+2024-12-13,Expense,Supply Warehouse,Business,Business Checking *9901,-450.0,Services
+2024-12-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2024-12-13,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-47.63,Transport
+2024-12-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2759.82,Services
+2024-12-14,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-58.19,Food & Drink
+2024-12-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2024-12-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2365.47,Services
+2024-12-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1517.6,Services
+2024-12-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2024-12-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1250.22,Services
+2024-12-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2024-12-19,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-40.13,Shopping
+2024-12-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2890.76,Services
+2024-12-20,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-118.86,Health
+2024-12-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,923.56,Services
+2024-12-21,Expense,Supply Warehouse,Business,Business Checking *9901,-585.36,Services
+2024-12-21,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-96.6,Food & Drink
+2024-12-22,Expense,Supply Warehouse,Business,Business Checking *9901,-228.31,Services
+2024-12-22,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-128.65,Transport
+2024-12-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2736.5,Services
+2024-12-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1845.19,Services
+2024-12-24,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-42.87,Transport
+2024-12-25,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-175.82,Travel
+2024-12-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2380.28,Services
+2024-12-26,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-45.68,Transport
+2024-12-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1063.8,Services
+2024-12-27,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-33.86,Food & Drink
+2024-12-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2894.31,Services
+2024-12-28,Expense,Supply Warehouse,Business,Business Checking *9901,-231.46,Services
+2024-12-28,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-119.27,Travel
+2024-12-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1434.5,Services
+2024-12-30,Expense,Transport Purchase,Personal,Travel Rewards *5541,-103.41,Transport
+2024-12-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2176.18,Services
+2024-12-31,Expense,Supply Warehouse,Business,Business Checking *9901,-516.58,Services
+2024-12-31,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-170.82,Health
+2025-01-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-01-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-01-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2864.67,Services
+2025-01-02,Expense,Supply Warehouse,Business,Business Checking *9901,-465.42,Services
+2025-01-02,Expense,Transport Purchase,Personal,Travel Rewards *5541,-35.32,Transport
+2025-01-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2459.87,Services
+2025-01-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-01-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1587.61,Services
+2025-01-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-01-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1330.26,Services
+2025-01-06,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-19.1,Food & Drink
+2025-01-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1890.22,Services
+2025-01-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-01-07,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-132.88,Food & Drink
+2025-01-08,Expense,Supply Warehouse,Business,Business Checking *9901,-412.08,Services
+2025-01-08,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-103.31,Entertainment
+2025-01-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,971.51,Services
+2025-01-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-01-09,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-123.33,Food & Drink
+2025-01-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2978.66,Services
+2025-01-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-01-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-01-10,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-167.48,Entertainment
+2025-01-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,906.07,Services
+2025-01-11,Expense,Supply Warehouse,Business,Business Checking *9901,-198.65,Services
+2025-01-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-01-11,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-87.98,Shopping
+2025-01-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1814.93,Bills
+2025-01-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1814.93,Bills
+2025-01-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2095.77,Bills
+2025-01-12,Payment,Payment Received,Personal,Travel Rewards *5541,2095.77,Bills
+2025-01-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2782.12,Services
+2025-01-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-01-13,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-105.81,Food & Drink
+2025-01-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2742.18,Services
+2025-01-14,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-164.55,Food & Drink
+2025-01-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-01-15,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-30.0,Food & Drink
+2025-01-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2054.52,Services
+2025-01-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1607.61,Services
+2025-01-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-01-17,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-23.21,Entertainment
+2025-01-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1781.23,Services
+2025-01-18,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-75.86,Health
+2025-01-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-01-19,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-61.23,Transport
+2025-01-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2705.09,Services
+2025-01-20,Expense,Transport Purchase,Personal,Travel Rewards *5541,-83.58,Transport
+2025-01-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1521.1,Services
+2025-01-21,Expense,Supply Warehouse,Business,Business Checking *9901,-102.49,Services
+2025-01-21,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-103.49,Health
+2025-01-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2022.29,Services
+2025-01-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2320.96,Services
+2025-01-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2996.15,Services
+2025-01-25,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-113.81,Food & Drink
+2025-01-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1788.43,Services
+2025-01-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1447.28,Services
+2025-01-28,Expense,Transport Purchase,Personal,Travel Rewards *5541,-127.44,Transport
+2025-01-29,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-133.56,Entertainment
+2025-01-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1736.01,Services
+2025-01-30,Expense,Supply Warehouse,Business,Business Checking *9901,-524.87,Services
+2025-01-30,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-80.7,Shopping
+2025-01-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2683.86,Services
+2025-02-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2830.96,Services
+2025-02-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-02-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-02-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2287.7,Services
+2025-02-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-02-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2551.72,Services
+2025-02-04,Expense,Health Purchase,Personal,Travel Rewards *5541,-26.88,Health
+2025-02-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-02-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1049.86,Services
+2025-02-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2790.77,Services
+2025-02-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-02-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2567.92,Services
+2025-02-08,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-121.41,Food & Drink
+2025-02-09,Expense,Supply Warehouse,Business,Business Checking *9901,-441.45,Services
+2025-02-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-02-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1242.61,Services
+2025-02-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-02-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-02-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1954.98,Services
+2025-02-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-02-11,Expense,Health Purchase,Personal,Travel Rewards *5541,-196.69,Health
+2025-02-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-2192.16,Bills
+2025-02-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,2192.16,Bills
+2025-02-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2080.87,Bills
+2025-02-12,Payment,Payment Received,Personal,Travel Rewards *5541,2080.87,Bills
+2025-02-12,Expense,Travel Purchase,Personal,Travel Rewards *5541,-147.55,Travel
+2025-02-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1059.36,Services
+2025-02-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-02-13,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-185.7,Food & Drink
+2025-02-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1159.91,Services
+2025-02-14,Expense,Supply Warehouse,Business,Business Checking *9901,-160.67,Services
+2025-02-14,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-199.23,Health
+2025-02-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2037.65,Services
+2025-02-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-02-15,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-121.48,Food & Drink
+2025-02-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2839.59,Services
+2025-02-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-02-17,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-72.16,Shopping
+2025-02-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1114.99,Services
+2025-02-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-02-19,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-117.94,Food & Drink
+2025-02-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2362.36,Services
+2025-02-20,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-73.68,Entertainment
+2025-02-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,920.71,Services
+2025-02-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1845.93,Services
+2025-02-22,Expense,Supply Warehouse,Business,Business Checking *9901,-235.86,Services
+2025-02-22,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-61.65,Entertainment
+2025-02-23,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-74.85,Entertainment
+2025-02-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1289.7,Services
+2025-02-24,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-138.17,Travel
+2025-02-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2713.57,Services
+2025-02-25,Expense,Supply Warehouse,Business,Business Checking *9901,-142.95,Services
+2025-02-25,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-53.69,Shopping
+2025-02-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2313.06,Services
+2025-02-27,Expense,Supply Warehouse,Business,Business Checking *9901,-401.74,Services
+2025-02-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1768.67,Services
+2025-02-28,Expense,Supply Warehouse,Business,Business Checking *9901,-428.99,Services
+2025-02-28,Expense,Travel Purchase,Personal,Travel Rewards *5541,-131.98,Travel
+2025-03-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1983.41,Services
+2025-03-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-03-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-03-02,Expense,Supply Warehouse,Business,Business Checking *9901,-455.96,Services
+2025-03-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1501.6,Services
+2025-03-03,Expense,Supply Warehouse,Business,Business Checking *9901,-282.51,Services
+2025-03-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-03-03,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-154.7,Food & Drink
+2025-03-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2377.86,Services
+2025-03-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-03-05,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-183.27,Shopping
+2025-03-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,936.45,Services
+2025-03-06,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-17.82,Travel
+2025-03-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2707.13,Services
+2025-03-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-03-07,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-167.53,Transport
+2025-03-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1062.6,Services
+2025-03-08,Expense,Supply Warehouse,Business,Business Checking *9901,-460.39,Services
+2025-03-08,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-90.21,Health
+2025-03-09,Expense,Supply Warehouse,Business,Business Checking *9901,-276.24,Services
+2025-03-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-03-09,Expense,Transport Purchase,Personal,Travel Rewards *5541,-61.06,Transport
+2025-03-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1675.76,Services
+2025-03-10,Expense,Supply Warehouse,Business,Business Checking *9901,-509.54,Services
+2025-03-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-03-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-03-10,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-75.3,Health
+2025-03-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1074.8,Services
+2025-03-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-03-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1881.1,Bills
+2025-03-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1881.1,Bills
+2025-03-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2024.21,Bills
+2025-03-12,Payment,Payment Received,Personal,Travel Rewards *5541,2024.21,Bills
+2025-03-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1137.47,Services
+2025-03-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-03-13,Expense,Travel Purchase,Personal,Travel Rewards *5541,-56.97,Travel
+2025-03-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2089.54,Services
+2025-03-14,Expense,Supply Warehouse,Business,Business Checking *9901,-252.56,Services
+2025-03-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1073.21,Services
+2025-03-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-03-15,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-174.38,Food & Drink
+2025-03-16,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-98.27,Health
+2025-03-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2578.07,Services
+2025-03-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-03-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1375.37,Services
+2025-03-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-03-19,Expense,Transport Purchase,Personal,Travel Rewards *5541,-44.59,Transport
+2025-03-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1569.88,Services
+2025-03-20,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-44.9,Shopping
+2025-03-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2095.99,Services
+2025-03-21,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-73.14,Health
+2025-03-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1816.96,Services
+2025-03-22,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-87.98,Food & Drink
+2025-03-23,Expense,Supply Warehouse,Business,Business Checking *9901,-312.09,Services
+2025-03-23,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-103.92,Shopping
+2025-03-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1983.72,Services
+2025-03-24,Expense,Supply Warehouse,Business,Business Checking *9901,-146.69,Services
+2025-03-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1540.92,Services
+2025-03-25,Expense,Health Purchase,Personal,Travel Rewards *5541,-150.2,Health
+2025-03-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2672.33,Services
+2025-03-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1504.93,Services
+2025-03-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1191.66,Services
+2025-03-30,Expense,Supply Warehouse,Business,Business Checking *9901,-345.86,Services
+2025-03-30,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-71.85,Entertainment
+2025-03-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2940.28,Services
+2025-03-31,Expense,Supply Warehouse,Business,Business Checking *9901,-350.75,Services
+2025-03-31,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-181.76,Food & Drink
+2025-04-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1620.31,Services
+2025-04-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-04-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-04-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2687.04,Services
+2025-04-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-04-03,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-176.12,Travel
+2025-04-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2616.04,Services
+2025-04-04,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-104.19,Shopping
+2025-04-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2889.43,Services
+2025-04-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-04-06,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-33.06,Entertainment
+2025-04-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2472.8,Services
+2025-04-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-04-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1107.24,Services
+2025-04-08,Expense,Supply Warehouse,Business,Business Checking *9901,-233.57,Services
+2025-04-08,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-186.68,Shopping
+2025-04-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-04-09,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-178.65,Food & Drink
+2025-04-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2659.01,Services
+2025-04-10,Expense,Supply Warehouse,Business,Business Checking *9901,-211.67,Services
+2025-04-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-04-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-04-10,Expense,Transport Purchase,Personal,Travel Rewards *5541,-143.08,Transport
+2025-04-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2797.19,Services
+2025-04-11,Expense,Supply Warehouse,Business,Business Checking *9901,-107.84,Services
+2025-04-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-04-11,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-69.3,Food & Drink
+2025-04-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1575.78,Services
+2025-04-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1466.77,Bills
+2025-04-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1466.77,Bills
+2025-04-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1577.7,Bills
+2025-04-12,Payment,Payment Received,Personal,Travel Rewards *5541,1577.7,Bills
+2025-04-12,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-175.8,Transport
+2025-04-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-04-13,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-39.34,Entertainment
+2025-04-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1087.24,Services
+2025-04-14,Expense,Transport Purchase,Personal,Travel Rewards *5541,-199.44,Transport
+2025-04-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1191.25,Services
+2025-04-15,Expense,Supply Warehouse,Business,Business Checking *9901,-406.26,Services
+2025-04-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-04-15,Expense,Health Purchase,Personal,Travel Rewards *5541,-110.83,Health
+2025-04-16,Expense,Supply Warehouse,Business,Business Checking *9901,-343.4,Services
+2025-04-16,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-25.39,Shopping
+2025-04-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2394.6,Services
+2025-04-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-04-17,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-145.36,Travel
+2025-04-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1452.43,Services
+2025-04-18,Expense,Supply Warehouse,Business,Business Checking *9901,-149.94,Services
+2025-04-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1129.18,Services
+2025-04-19,Expense,Supply Warehouse,Business,Business Checking *9901,-596.51,Services
+2025-04-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-04-20,Expense,Health Purchase,Personal,Travel Rewards *5541,-153.62,Health
+2025-04-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,930.06,Services
+2025-04-21,Expense,Supply Warehouse,Business,Business Checking *9901,-343.37,Services
+2025-04-21,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-34.39,Food & Drink
+2025-04-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1151.38,Services
+2025-04-22,Expense,Supply Warehouse,Business,Business Checking *9901,-102.94,Services
+2025-04-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1324.03,Services
+2025-04-24,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-196.35,Health
+2025-04-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1757.5,Services
+2025-04-25,Expense,Supply Warehouse,Business,Business Checking *9901,-502.48,Services
+2025-04-25,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-78.13,Entertainment
+2025-04-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1343.54,Services
+2025-04-26,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-151.82,Shopping
+2025-04-27,Expense,Supply Warehouse,Business,Business Checking *9901,-385.98,Services
+2025-04-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1514.47,Services
+2025-04-28,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-82.32,Health
+2025-04-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1395.56,Services
+2025-04-29,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-18.61,Transport
+2025-04-30,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-65.3,Health
+2025-05-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2213.61,Services
+2025-05-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-05-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-05-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1976.2,Services
+2025-05-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2390.42,Services
+2025-05-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-05-03,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-188.7,Entertainment
+2025-05-04,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-49.59,Shopping
+2025-05-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2118.0,Services
+2025-05-05,Expense,Supply Warehouse,Business,Business Checking *9901,-118.5,Services
+2025-05-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-05-05,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-87.52,Entertainment
+2025-05-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1632.01,Services
+2025-05-07,Expense,Supply Warehouse,Business,Business Checking *9901,-250.77,Services
+2025-05-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-05-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2238.36,Services
+2025-05-08,Expense,Supply Warehouse,Business,Business Checking *9901,-204.49,Services
+2025-05-08,Expense,Transport Purchase,Personal,Travel Rewards *5541,-25.0,Transport
+2025-05-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2369.72,Services
+2025-05-09,Expense,Supply Warehouse,Business,Business Checking *9901,-115.95,Services
+2025-05-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-05-09,Expense,Travel Purchase,Personal,Travel Rewards *5541,-108.15,Travel
+2025-05-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1575.75,Services
+2025-05-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-05-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-05-10,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-54.17,Travel
+2025-05-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-05-11,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-106.81,Shopping
+2025-05-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1016.22,Services
+2025-05-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1945.37,Bills
+2025-05-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1945.37,Bills
+2025-05-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1514.37,Bills
+2025-05-12,Payment,Payment Received,Personal,Travel Rewards *5541,1514.37,Bills
+2025-05-12,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-194.88,Food & Drink
+2025-05-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1440.47,Services
+2025-05-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-05-13,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-77.51,Entertainment
+2025-05-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2252.1,Services
+2025-05-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-05-15,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-141.83,Transport
+2025-05-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1090.37,Services
+2025-05-16,Expense,Supply Warehouse,Business,Business Checking *9901,-478.88,Services
+2025-05-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,924.69,Services
+2025-05-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-05-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1746.91,Services
+2025-05-19,Expense,Supply Warehouse,Business,Business Checking *9901,-431.41,Services
+2025-05-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-05-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2658.85,Services
+2025-05-20,Expense,Supply Warehouse,Business,Business Checking *9901,-222.37,Services
+2025-05-20,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-149.66,Shopping
+2025-05-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2408.55,Services
+2025-05-22,Expense,Supply Warehouse,Business,Business Checking *9901,-175.53,Services
+2025-05-22,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-177.69,Food & Drink
+2025-05-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1699.65,Services
+2025-05-23,Expense,Travel Purchase,Personal,Travel Rewards *5541,-55.04,Travel
+2025-05-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2566.98,Services
+2025-05-25,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-73.63,Shopping
+2025-05-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1665.15,Services
+2025-05-26,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-17.29,Transport
+2025-05-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1259.39,Services
+2025-05-28,Expense,Travel Purchase,Personal,Travel Rewards *5541,-176.84,Travel
+2025-05-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2751.7,Services
+2025-05-29,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-185.86,Entertainment
+2025-05-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1692.39,Services
+2025-05-30,Expense,Supply Warehouse,Business,Business Checking *9901,-258.4,Services
+2025-05-30,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-198.75,Shopping
+2025-05-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,928.71,Services
+2025-06-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-06-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-06-01,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-110.82,Health
+2025-06-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2099.25,Services
+2025-06-02,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-100.53,Entertainment
+2025-06-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1279.0,Services
+2025-06-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-06-04,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-104.16,Entertainment
+2025-06-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2116.52,Services
+2025-06-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-06-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1541.86,Services
+2025-06-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1785.79,Services
+2025-06-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-06-07,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-100.26,Travel
+2025-06-08,Expense,Supply Warehouse,Business,Business Checking *9901,-518.47,Services
+2025-06-08,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-187.24,Shopping
+2025-06-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1384.3,Services
+2025-06-09,Expense,Supply Warehouse,Business,Business Checking *9901,-412.68,Services
+2025-06-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-06-09,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-101.66,Shopping
+2025-06-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2874.72,Services
+2025-06-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-06-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-06-10,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-133.1,Transport
+2025-06-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-06-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2148.89,Services
+2025-06-12,Expense,Supply Warehouse,Business,Business Checking *9901,-223.88,Services
+2025-06-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1769.37,Bills
+2025-06-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1769.37,Bills
+2025-06-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1599.26,Bills
+2025-06-12,Payment,Payment Received,Personal,Travel Rewards *5541,1599.26,Bills
+2025-06-12,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-107.38,Shopping
+2025-06-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1610.16,Services
+2025-06-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-06-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1264.56,Services
+2025-06-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-06-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1776.36,Services
+2025-06-16,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-176.81,Shopping
+2025-06-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1343.67,Services
+2025-06-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-06-17,Expense,Health Purchase,Personal,Travel Rewards *5541,-186.58,Health
+2025-06-18,Expense,Supply Warehouse,Business,Business Checking *9901,-386.98,Services
+2025-06-18,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-102.67,Entertainment
+2025-06-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1035.7,Services
+2025-06-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-06-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2570.95,Services
+2025-06-20,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-111.95,Health
+2025-06-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2763.24,Services
+2025-06-21,Expense,Supply Warehouse,Business,Business Checking *9901,-409.59,Services
+2025-06-22,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-136.29,Transport
+2025-06-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2358.23,Services
+2025-06-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2128.32,Services
+2025-06-24,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-53.68,Transport
+2025-06-25,Expense,Travel Purchase,Personal,Travel Rewards *5541,-19.49,Travel
+2025-06-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1873.68,Services
+2025-06-26,Expense,Transport Purchase,Personal,Travel Rewards *5541,-113.2,Transport
+2025-06-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2121.7,Services
+2025-06-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1100.18,Services
+2025-06-28,Expense,Supply Warehouse,Business,Business Checking *9901,-426.37,Services
+2025-06-28,Expense,Travel Purchase,Personal,Travel Rewards *5541,-98.52,Travel
+2025-06-29,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-199.86,Shopping
+2025-06-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1272.54,Services
+2025-07-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2945.87,Services
+2025-07-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-07-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-07-01,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-187.39,Shopping
+2025-07-02,Expense,Supply Warehouse,Business,Business Checking *9901,-179.06,Services
+2025-07-02,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-47.06,Health
+2025-07-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1762.72,Services
+2025-07-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-07-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1064.87,Services
+2025-07-04,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-61.7,Shopping
+2025-07-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2603.09,Services
+2025-07-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-07-05,Expense,Travel Purchase,Personal,Travel Rewards *5541,-53.6,Travel
+2025-07-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2839.31,Services
+2025-07-07,Expense,Supply Warehouse,Business,Business Checking *9901,-357.34,Services
+2025-07-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-07-07,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-130.29,Shopping
+2025-07-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2161.27,Services
+2025-07-08,Expense,Travel Purchase,Personal,Travel Rewards *5541,-160.9,Travel
+2025-07-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-07-09,Expense,Travel Purchase,Personal,Travel Rewards *5541,-42.05,Travel
+2025-07-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1162.31,Services
+2025-07-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-07-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-07-10,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-41.92,Shopping
+2025-07-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1814.57,Services
+2025-07-11,Expense,Supply Warehouse,Business,Business Checking *9901,-291.63,Services
+2025-07-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-07-11,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-176.69,Shopping
+2025-07-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2910.06,Services
+2025-07-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1724.64,Bills
+2025-07-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1724.64,Bills
+2025-07-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2159.5,Bills
+2025-07-12,Payment,Payment Received,Personal,Travel Rewards *5541,2159.5,Bills
+2025-07-12,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-159.03,Health
+2025-07-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-07-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2732.7,Services
+2025-07-14,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-135.52,Entertainment
+2025-07-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,913.39,Services
+2025-07-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-07-16,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-166.74,Food & Drink
+2025-07-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1638.13,Services
+2025-07-17,Expense,Supply Warehouse,Business,Business Checking *9901,-247.06,Services
+2025-07-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-07-17,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-150.04,Food & Drink
+2025-07-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1545.84,Services
+2025-07-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1239.02,Services
+2025-07-19,Expense,Supply Warehouse,Business,Business Checking *9901,-406.32,Services
+2025-07-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-07-19,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-116.36,Health
+2025-07-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1404.3,Services
+2025-07-21,Expense,Supply Warehouse,Business,Business Checking *9901,-192.43,Services
+2025-07-21,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-28.47,Food & Drink
+2025-07-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1009.58,Services
+2025-07-22,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-42.28,Travel
+2025-07-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2930.83,Services
+2025-07-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1808.45,Services
+2025-07-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1843.2,Services
+2025-07-26,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-52.46,Food & Drink
+2025-07-27,Expense,Supply Warehouse,Business,Business Checking *9901,-282.1,Services
+2025-07-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1890.38,Services
+2025-07-28,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-188.65,Food & Drink
+2025-07-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1298.52,Services
+2025-07-29,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-18.22,Shopping
+2025-07-30,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-30.82,Entertainment
+2025-07-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1779.46,Services
+2025-07-31,Expense,Supply Warehouse,Business,Business Checking *9901,-135.65,Services
+2025-07-31,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-118.05,Health
+2025-08-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,998.57,Services
+2025-08-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-08-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-08-01,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-139.02,Shopping
+2025-08-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2016.87,Services
+2025-08-02,Expense,Supply Warehouse,Business,Business Checking *9901,-407.82,Services
+2025-08-02,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-179.69,Travel
+2025-08-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-08-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2759.05,Services
+2025-08-04,Expense,Supply Warehouse,Business,Business Checking *9901,-479.28,Services
+2025-08-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2196.65,Services
+2025-08-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-08-06,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-154.0,Food & Drink
+2025-08-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1662.32,Services
+2025-08-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-08-07,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-120.61,Entertainment
+2025-08-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1464.29,Services
+2025-08-08,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-108.38,Shopping
+2025-08-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2020.92,Services
+2025-08-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-08-09,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-159.04,Travel
+2025-08-10,Expense,Supply Warehouse,Business,Business Checking *9901,-386.7,Services
+2025-08-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-08-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-08-10,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-83.67,Entertainment
+2025-08-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2208.54,Services
+2025-08-11,Expense,Supply Warehouse,Business,Business Checking *9901,-595.72,Services
+2025-08-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-08-11,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-130.97,Food & Drink
+2025-08-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1638.91,Services
+2025-08-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1416.92,Bills
+2025-08-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1416.92,Bills
+2025-08-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1844.88,Bills
+2025-08-12,Payment,Payment Received,Personal,Travel Rewards *5541,1844.88,Bills
+2025-08-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-08-13,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-144.1,Health
+2025-08-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,981.33,Services
+2025-08-14,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-124.25,Entertainment
+2025-08-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1349.39,Services
+2025-08-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-08-15,Expense,Travel Purchase,Personal,Travel Rewards *5541,-74.56,Travel
+2025-08-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1272.13,Services
+2025-08-16,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-119.91,Shopping
+2025-08-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-08-17,Expense,Travel Purchase,Personal,Travel Rewards *5541,-104.4,Travel
+2025-08-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2695.81,Services
+2025-08-18,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-130.41,Food & Drink
+2025-08-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2950.18,Services
+2025-08-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-08-19,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-111.82,Shopping
+2025-08-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1324.35,Services
+2025-08-21,Expense,Supply Warehouse,Business,Business Checking *9901,-396.59,Services
+2025-08-21,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-71.57,Transport
+2025-08-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2799.45,Services
+2025-08-22,Expense,Supply Warehouse,Business,Business Checking *9901,-327.2,Services
+2025-08-22,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-84.86,Transport
+2025-08-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2367.29,Services
+2025-08-24,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-39.58,Shopping
+2025-08-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1846.02,Services
+2025-08-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2469.52,Services
+2025-08-26,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-59.77,Shopping
+2025-08-27,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-52.84,Transport
+2025-08-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2009.42,Services
+2025-08-28,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-124.46,Shopping
+2025-08-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1528.4,Services
+2025-08-29,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-146.7,Transport
+2025-08-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2016.65,Services
+2025-08-31,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-116.62,Food & Drink
+2025-09-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1916.85,Services
+2025-09-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-09-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-09-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2570.13,Services
+2025-09-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-09-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2686.17,Services
+2025-09-04,Expense,Supply Warehouse,Business,Business Checking *9901,-233.18,Services
+2025-09-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2476.42,Services
+2025-09-05,Expense,Supply Warehouse,Business,Business Checking *9901,-309.69,Services
+2025-09-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-09-05,Expense,Health Purchase,Personal,Travel Rewards *5541,-97.6,Health
+2025-09-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1129.61,Services
+2025-09-06,Expense,Supply Warehouse,Business,Business Checking *9901,-392.7,Services
+2025-09-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-09-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1368.02,Services
+2025-09-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2644.7,Services
+2025-09-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-09-09,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-24.73,Entertainment
+2025-09-10,Expense,Supply Warehouse,Business,Business Checking *9901,-235.11,Services
+2025-09-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-09-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-09-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1750.54,Services
+2025-09-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-09-11,Expense,Travel Purchase,Personal,Travel Rewards *5541,-159.94,Travel
+2025-09-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1426.7,Services
+2025-09-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1322.78,Bills
+2025-09-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1322.78,Bills
+2025-09-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1571.21,Bills
+2025-09-12,Payment,Payment Received,Personal,Travel Rewards *5541,1571.21,Bills
+2025-09-12,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-69.38,Health
+2025-09-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1560.34,Services
+2025-09-13,Expense,Supply Warehouse,Business,Business Checking *9901,-302.49,Services
+2025-09-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-09-14,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-113.07,Health
+2025-09-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2178.69,Services
+2025-09-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-09-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,930.96,Services
+2025-09-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-09-17,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-20.41,Transport
+2025-09-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2485.82,Services
+2025-09-18,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-76.91,Entertainment
+2025-09-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2365.22,Services
+2025-09-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-09-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2181.21,Services
+2025-09-20,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-90.47,Shopping
+2025-09-21,Expense,Supply Warehouse,Business,Business Checking *9901,-476.29,Services
+2025-09-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2351.11,Services
+2025-09-22,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-112.0,Health
+2025-09-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2433.45,Services
+2025-09-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1473.96,Services
+2025-09-25,Expense,Supply Warehouse,Business,Business Checking *9901,-336.77,Services
+2025-09-25,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-77.68,Entertainment
+2025-09-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2163.26,Services
+2025-09-26,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-70.43,Travel
+2025-09-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1218.79,Services
+2025-09-27,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-140.26,Shopping
+2025-09-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1623.91,Services
+2025-09-29,Expense,Transport Purchase,Personal,Travel Rewards *5541,-85.13,Transport
+2025-09-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1196.79,Services
+2025-09-30,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-166.41,Health
+2025-10-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-10-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-10-01,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-188.49,Health
+2025-10-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2588.72,Services
+2025-10-02,Expense,Supply Warehouse,Business,Business Checking *9901,-444.84,Services
+2025-10-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1537.86,Services
+2025-10-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-10-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2917.17,Services
+2025-10-04,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-60.88,Entertainment
+2025-10-05,Expense,Supply Warehouse,Business,Business Checking *9901,-588.41,Services
+2025-10-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-10-05,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-148.57,Transport
+2025-10-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2257.03,Services
+2025-10-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2786.28,Services
+2025-10-07,Expense,Supply Warehouse,Business,Business Checking *9901,-482.99,Services
+2025-10-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-10-07,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-89.11,Travel
+2025-10-08,Expense,Supply Warehouse,Business,Business Checking *9901,-591.0,Services
+2025-10-08,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-43.06,Travel
+2025-10-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2381.3,Services
+2025-10-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-10-09,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-74.38,Food & Drink
+2025-10-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1130.93,Services
+2025-10-10,Expense,Supply Warehouse,Business,Business Checking *9901,-510.14,Services
+2025-10-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-10-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-10-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2333.41,Services
+2025-10-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-10-11,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-93.88,Food & Drink
+2025-10-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1973.35,Bills
+2025-10-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1973.35,Bills
+2025-10-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1741.52,Bills
+2025-10-12,Payment,Payment Received,Personal,Travel Rewards *5541,1741.52,Bills
+2025-10-12,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-134.67,Entertainment
+2025-10-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1188.86,Services
+2025-10-13,Expense,Supply Warehouse,Business,Business Checking *9901,-178.54,Services
+2025-10-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-10-13,Expense,Transport Purchase,Personal,Travel Rewards *5541,-168.46,Transport
+2025-10-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2474.69,Services
+2025-10-14,Expense,Health Purchase,Personal,Travel Rewards *5541,-46.89,Health
+2025-10-15,Expense,Supply Warehouse,Business,Business Checking *9901,-546.86,Services
+2025-10-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-10-15,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-155.78,Food & Drink
+2025-10-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1560.44,Services
+2025-10-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2945.43,Services
+2025-10-17,Expense,Supply Warehouse,Business,Business Checking *9901,-462.08,Services
+2025-10-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-10-17,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-103.78,Entertainment
+2025-10-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2488.73,Services
+2025-10-18,Expense,Supply Warehouse,Business,Business Checking *9901,-421.92,Services
+2025-10-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-10-19,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-114.47,Health
+2025-10-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1843.62,Services
+2025-10-20,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-169.03,Entertainment
+2025-10-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,939.41,Services
+2025-10-21,Expense,Supply Warehouse,Business,Business Checking *9901,-481.44,Services
+2025-10-21,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-169.67,Shopping
+2025-10-22,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-36.53,Shopping
+2025-10-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2141.45,Services
+2025-10-23,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-142.17,Travel
+2025-10-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2075.66,Services
+2025-10-24,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-146.77,Shopping
+2025-10-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2355.25,Services
+2025-10-26,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-82.17,Shopping
+2025-10-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2973.32,Services
+2025-10-27,Expense,Supply Warehouse,Business,Business Checking *9901,-228.34,Services
+2025-10-27,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-43.66,Entertainment
+2025-10-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1594.84,Services
+2025-10-28,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-42.32,Health
+2025-10-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2603.0,Services
+2025-10-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,971.51,Services
+2025-11-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2731.87,Services
+2025-11-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-11-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-11-01,Expense,Transport Purchase,Personal,Travel Rewards *5541,-106.97,Transport
+2025-11-02,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-50.57,Transport
+2025-11-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1606.71,Services
+2025-11-03,Expense,Supply Warehouse,Business,Business Checking *9901,-461.04,Services
+2025-11-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-11-03,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-79.37,Health
+2025-11-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2314.32,Services
+2025-11-04,Expense,Supply Warehouse,Business,Business Checking *9901,-577.63,Services
+2025-11-05,Expense,Supply Warehouse,Business,Business Checking *9901,-282.35,Services
+2025-11-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-11-05,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-131.51,Food & Drink
+2025-11-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2558.63,Services
+2025-11-06,Expense,Supply Warehouse,Business,Business Checking *9901,-442.99,Services
+2025-11-06,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-97.56,Entertainment
+2025-11-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2888.71,Services
+2025-11-07,Expense,Supply Warehouse,Business,Business Checking *9901,-381.19,Services
+2025-11-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-11-07,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-37.57,Travel
+2025-11-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2862.91,Services
+2025-11-09,Expense,Supply Warehouse,Business,Business Checking *9901,-121.87,Services
+2025-11-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-11-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2343.91,Services
+2025-11-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-11-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-11-10,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-145.21,Food & Drink
+2025-11-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2048.93,Services
+2025-11-11,Expense,Supply Warehouse,Business,Business Checking *9901,-195.79,Services
+2025-11-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-11-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1324.35,Bills
+2025-11-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1324.35,Bills
+2025-11-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2033.25,Bills
+2025-11-12,Payment,Payment Received,Personal,Travel Rewards *5541,2033.25,Bills
+2025-11-12,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-140.46,Transport
+2025-11-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1343.96,Services
+2025-11-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-11-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1034.19,Services
+2025-11-14,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-28.91,Entertainment
+2025-11-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,936.18,Services
+2025-11-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-11-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2353.81,Services
+2025-11-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-11-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2361.41,Services
+2025-11-18,Expense,Supply Warehouse,Business,Business Checking *9901,-244.57,Services
+2025-11-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-11-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1073.1,Services
+2025-11-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1270.89,Services
+2025-11-21,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-20.28,Entertainment
+2025-11-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1442.02,Services
+2025-11-22,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-115.89,Health
+2025-11-23,Expense,Supply Warehouse,Business,Business Checking *9901,-159.48,Services
+2025-11-23,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-123.83,Health
+2025-11-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2775.82,Services
+2025-11-24,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-39.11,Health
+2025-11-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2964.38,Services
+2025-11-25,Expense,Travel Purchase,Personal,Travel Rewards *5541,-19.99,Travel
+2025-11-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2036.29,Services
+2025-11-27,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-63.83,Entertainment
+2025-11-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2012.26,Services
+2025-11-28,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-158.71,Shopping
+2025-11-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1108.38,Services
+2025-11-30,Expense,Supply Warehouse,Business,Business Checking *9901,-321.2,Services
+2025-11-30,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-68.69,Health
+2025-12-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2349.73,Services
+2025-12-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2025-12-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2025-12-01,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-70.42,Food & Drink
+2025-12-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2419.5,Services
+2025-12-02,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-44.62,Food & Drink
+2025-12-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2025-12-03,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-161.29,Entertainment
+2025-12-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1621.97,Services
+2025-12-04,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-183.57,Travel
+2025-12-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2923.67,Services
+2025-12-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2025-12-05,Expense,Transport Purchase,Personal,Travel Rewards *5541,-168.57,Transport
+2025-12-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1904.82,Services
+2025-12-06,Expense,Supply Warehouse,Business,Business Checking *9901,-586.64,Services
+2025-12-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2025-12-07,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-98.81,Health
+2025-12-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2282.13,Services
+2025-12-08,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-117.1,Health
+2025-12-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2877.01,Services
+2025-12-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2025-12-09,Expense,Transport Purchase,Personal,Travel Rewards *5541,-87.22,Transport
+2025-12-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2025-12-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2025-12-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1733.84,Services
+2025-12-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2025-12-11,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-123.96,Shopping
+2025-12-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2732.79,Services
+2025-12-12,Expense,Supply Warehouse,Business,Business Checking *9901,-284.49,Services
+2025-12-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1693.81,Bills
+2025-12-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1693.81,Bills
+2025-12-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2162.39,Bills
+2025-12-12,Payment,Payment Received,Personal,Travel Rewards *5541,2162.39,Bills
+2025-12-12,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-187.0,Travel
+2025-12-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1956.59,Services
+2025-12-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2025-12-13,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-65.18,Entertainment
+2025-12-14,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-101.83,Shopping
+2025-12-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2695.11,Services
+2025-12-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2025-12-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1991.74,Services
+2025-12-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2025-12-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1493.26,Services
+2025-12-18,Expense,Transport Purchase,Personal,Travel Rewards *5541,-127.53,Transport
+2025-12-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1585.36,Services
+2025-12-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2025-12-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2389.93,Services
+2025-12-20,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-157.8,Transport
+2025-12-21,Expense,Supply Warehouse,Business,Business Checking *9901,-362.32,Services
+2025-12-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2218.72,Services
+2025-12-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1560.63,Services
+2025-12-23,Expense,Supply Warehouse,Business,Business Checking *9901,-358.72,Services
+2025-12-24,Expense,Transport Purchase,Personal,Travel Rewards *5541,-174.03,Transport
+2025-12-25,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2426.33,Services
+2025-12-25,Expense,Transport Purchase,Personal,Travel Rewards *5541,-104.07,Transport
+2025-12-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2487.79,Services
+2025-12-26,Expense,Supply Warehouse,Business,Business Checking *9901,-101.87,Services
+2025-12-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1806.63,Services
+2025-12-27,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-71.16,Entertainment
+2025-12-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1405.85,Services
+2025-12-29,Expense,Supply Warehouse,Business,Business Checking *9901,-153.07,Services
+2025-12-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2704.24,Services
+2025-12-30,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-104.38,Health
+2025-12-31,Expense,Supply Warehouse,Business,Business Checking *9901,-353.57,Services
+2025-12-31,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-18.92,Food & Drink
+2026-01-01,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,969.57,Services
+2026-01-01,Expense,Supply Warehouse,Business,Business Checking *9901,-478.54,Services
+2026-01-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2026-01-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2026-01-01,Expense,Entertainment Purchase,Personal,Platinum Mastercard *1820,-112.81,Entertainment
+2026-01-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1699.3,Services
+2026-01-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2820.29,Services
+2026-01-03,Expense,Supply Warehouse,Business,Business Checking *9901,-166.13,Services
+2026-01-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2026-01-03,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-198.03,Shopping
+2026-01-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1120.1,Services
+2026-01-05,Expense,Supply Warehouse,Business,Business Checking *9901,-168.72,Services
+2026-01-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2026-01-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,917.0,Services
+2026-01-06,Expense,Supply Warehouse,Business,Business Checking *9901,-292.94,Services
+2026-01-06,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-24.9,Shopping
+2026-01-07,Expense,Supply Warehouse,Business,Business Checking *9901,-208.77,Services
+2026-01-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2026-01-07,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-104.74,Health
+2026-01-08,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2971.8,Services
+2026-01-08,Expense,Transport Purchase,Personal,Travel Rewards *5541,-74.47,Transport
+2026-01-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1741.63,Services
+2026-01-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2026-01-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2951.48,Services
+2026-01-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2026-01-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2026-01-10,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-52.53,Shopping
+2026-01-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2026-01-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2082.97,Services
+2026-01-12,Expense,Supply Warehouse,Business,Business Checking *9901,-526.7,Services
+2026-01-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-2098.15,Bills
+2026-01-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,2098.15,Bills
+2026-01-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2187.54,Bills
+2026-01-12,Payment,Payment Received,Personal,Travel Rewards *5541,2187.54,Bills
+2026-01-12,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-91.83,Health
+2026-01-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1110.29,Services
+2026-01-13,Expense,Supply Warehouse,Business,Business Checking *9901,-550.81,Services
+2026-01-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2026-01-13,Expense,Transport Purchase,Personal,Travel Rewards *5541,-69.91,Transport
+2026-01-15,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,932.68,Services
+2026-01-15,Expense,Supply Warehouse,Business,Business Checking *9901,-464.83,Services
+2026-01-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2026-01-15,Expense,Transport Purchase,Personal,Travel Rewards *5541,-170.42,Transport
+2026-01-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1125.75,Services
+2026-01-16,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-99.09,Entertainment
+2026-01-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1740.41,Services
+2026-01-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2026-01-17,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-55.24,Shopping
+2026-01-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2955.99,Services
+2026-01-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2026-01-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1519.39,Services
+2026-01-20,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-164.53,Transport
+2026-01-22,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2389.94,Services
+2026-01-22,Expense,Supply Warehouse,Business,Business Checking *9901,-286.47,Services
+2026-01-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1771.02,Services
+2026-01-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2411.01,Services
+2026-01-25,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-109.0,Entertainment
+2026-01-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1504.61,Services
+2026-01-26,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-112.35,Health
+2026-01-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1068.01,Services
+2026-01-27,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-158.54,Transport
+2026-01-28,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-29.66,Travel
+2026-01-29,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1620.99,Services
+2026-01-29,Expense,Supply Warehouse,Business,Business Checking *9901,-596.42,Services
+2026-01-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1657.85,Services
+2026-01-30,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-183.9,Food & Drink
+2026-01-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1473.92,Services
+2026-01-31,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-180.5,Food & Drink
+2026-02-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2026-02-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2026-02-01,Expense,Transport Purchase,Personal,Travel Rewards *5541,-52.89,Transport
+2026-02-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1927.28,Services
+2026-02-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1157.23,Services
+2026-02-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2026-02-03,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-192.73,Health
+2026-02-04,Expense,Transport Purchase,Personal,Travel Rewards *5541,-134.43,Transport
+2026-02-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1785.5,Services
+2026-02-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2026-02-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1858.42,Services
+2026-02-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2101.68,Services
+2026-02-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2026-02-07,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-46.49,Shopping
+2026-02-08,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-96.54,Transport
+2026-02-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1115.46,Services
+2026-02-09,Expense,Supply Warehouse,Business,Business Checking *9901,-538.21,Services
+2026-02-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2026-02-09,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-48.16,Travel
+2026-02-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2866.44,Services
+2026-02-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2026-02-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2026-02-11,Expense,Supply Warehouse,Business,Business Checking *9901,-252.94,Services
+2026-02-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2026-02-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1272.15,Services
+2026-02-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-2025.15,Bills
+2026-02-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,2025.15,Bills
+2026-02-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1797.4,Bills
+2026-02-12,Payment,Payment Received,Personal,Travel Rewards *5541,1797.4,Bills
+2026-02-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2983.22,Services
+2026-02-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2026-02-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1425.11,Services
+2026-02-14,Expense,Supply Warehouse,Business,Business Checking *9901,-209.77,Services
+2026-02-15,Expense,Supply Warehouse,Business,Business Checking *9901,-191.35,Services
+2026-02-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2026-02-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1043.06,Services
+2026-02-16,Expense,Transport Purchase,Personal,Travel Rewards *5541,-27.28,Transport
+2026-02-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1683.42,Services
+2026-02-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2026-02-17,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-125.63,Health
+2026-02-18,Expense,Supply Warehouse,Business,Business Checking *9901,-328.46,Services
+2026-02-18,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-82.35,Shopping
+2026-02-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1275.13,Services
+2026-02-19,Expense,Supply Warehouse,Business,Business Checking *9901,-114.78,Services
+2026-02-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2026-02-19,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-177.11,Food & Drink
+2026-02-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1482.12,Services
+2026-02-20,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-186.45,Food & Drink
+2026-02-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2620.59,Services
+2026-02-21,Expense,Supply Warehouse,Business,Business Checking *9901,-225.27,Services
+2026-02-21,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-160.73,Health
+2026-02-22,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-33.7,Shopping
+2026-02-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2753.83,Services
+2026-02-23,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-20.47,Food & Drink
+2026-02-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1478.45,Services
+2026-02-24,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-199.01,Shopping
+2026-02-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2887.87,Services
+2026-02-26,Expense,Supply Warehouse,Business,Business Checking *9901,-165.97,Services
+2026-02-26,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-128.57,Shopping
+2026-02-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2338.35,Services
+2026-02-27,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-58.88,Entertainment
+2026-02-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2664.64,Services
+2026-03-01,Expense,Supply Warehouse,Business,Business Checking *9901,-474.32,Services
+2026-03-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2026-03-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2026-03-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1405.89,Services
+2026-03-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1014.27,Services
+2026-03-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2026-03-05,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2189.38,Services
+2026-03-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2026-03-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2650.57,Services
+2026-03-06,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-126.17,Shopping
+2026-03-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1813.42,Services
+2026-03-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2026-03-07,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-99.92,Food & Drink
+2026-03-08,Expense,Supply Warehouse,Business,Business Checking *9901,-110.0,Services
+2026-03-08,Expense,Transport Purchase,Personal,Travel Rewards *5541,-36.88,Transport
+2026-03-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2067.56,Services
+2026-03-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2026-03-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1317.16,Services
+2026-03-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2026-03-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2026-03-10,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-156.34,Food & Drink
+2026-03-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2026-03-12,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2968.55,Services
+2026-03-12,Expense,Supply Warehouse,Business,Business Checking *9901,-515.12,Services
+2026-03-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1743.68,Bills
+2026-03-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1743.68,Bills
+2026-03-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-2091.1,Bills
+2026-03-12,Payment,Payment Received,Personal,Travel Rewards *5541,2091.1,Bills
+2026-03-12,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-126.65,Shopping
+2026-03-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2976.4,Services
+2026-03-13,Expense,Supply Warehouse,Business,Business Checking *9901,-527.11,Services
+2026-03-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2026-03-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1826.08,Services
+2026-03-14,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-172.88,Food & Drink
+2026-03-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2026-03-15,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-187.68,Food & Drink
+2026-03-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2829.88,Services
+2026-03-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2606.29,Services
+2026-03-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2026-03-17,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-57.25,Shopping
+2026-03-19,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2442.71,Services
+2026-03-19,Expense,Sub: Playstation Plus,Personal,Platinum Mastercard *1820,-14.99,Entertainment
+2026-03-19,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-64.54,Shopping
+2026-03-20,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1094.54,Services
+2026-03-21,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1347.39,Services
+2026-03-22,Expense,Entertainment Purchase,Personal,Travel Rewards *5541,-56.79,Entertainment
+2026-03-23,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1430.23,Services
+2026-03-23,Expense,Travel Purchase,Personal,Travel Rewards *5541,-41.69,Travel
+2026-03-24,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2856.75,Services
+2026-03-24,Expense,Travel Purchase,Personal,Travel Rewards *5541,-19.99,Travel
+2026-03-25,Expense,Supply Warehouse,Business,Business Checking *9901,-599.29,Services
+2026-03-26,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2473.07,Services
+2026-03-26,Expense,Food & Drink Purchase,Personal,Platinum Mastercard *1820,-63.33,Food & Drink
+2026-03-27,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1427.66,Services
+2026-03-27,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-145.63,Transport
+2026-03-28,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2077.24,Services
+2026-03-28,Expense,Supply Warehouse,Business,Business Checking *9901,-548.87,Services
+2026-03-30,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1854.8,Services
+2026-03-30,Expense,Supply Warehouse,Business,Business Checking *9901,-491.04,Services
+2026-03-30,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-65.33,Travel
+2026-03-31,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1258.16,Services
+2026-03-31,Expense,Shopping Purchase,Personal,Platinum Mastercard *1820,-78.86,Shopping
+2026-04-01,Expense,Rent,Personal,Adv SafeBalance *2290,-2000.0,Bills
+2026-04-01,Expense,Sub: Netflix,Personal,Travel Rewards *5541,-19.99,Entertainment
+2026-04-02,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2670.65,Services
+2026-04-02,Expense,Transport Purchase,Personal,Travel Rewards *5541,-61.34,Transport
+2026-04-03,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1344.1,Services
+2026-04-03,Expense,Supply Warehouse,Business,Business Checking *9901,-170.92,Services
+2026-04-03,Expense,Sub: Spotify,Personal,Travel Rewards *5541,-10.99,Entertainment
+2026-04-03,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-175.32,Travel
+2026-04-04,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2738.9,Services
+2026-04-04,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-70.06,Food & Drink
+2026-04-05,Expense,Sub: YouTube Premium,Personal,Travel Rewards *5541,-13.99,Entertainment
+2026-04-05,Expense,Transport Purchase,Personal,Travel Rewards *5541,-88.59,Transport
+2026-04-06,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1241.86,Services
+2026-04-06,Expense,Supply Warehouse,Business,Business Checking *9901,-167.39,Services
+2026-04-07,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2121.8,Services
+2026-04-07,Expense,Sub: Amazon Prime,Personal,Platinum Mastercard *1820,-14.99,Shopping
+2026-04-08,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-148.62,Food & Drink
+2026-04-09,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2095.38,Services
+2026-04-09,Expense,Sub: Adobe CC,Business,Business Checking *9901,-54.99,Services
+2026-04-09,Expense,Food & Drink Purchase,Personal,Travel Rewards *5541,-157.15,Food & Drink
+2026-04-10,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2804.57,Services
+2026-04-10,Expense,Supply Warehouse,Business,Business Checking *9901,-274.1,Services
+2026-04-10,Transfer,Owner Payout,Business,Business Checking *9901,-6666.67,Bills
+2026-04-10,Transfer,Transfer from Business,Personal,Adv SafeBalance *2290,6666.67,Services
+2026-04-10,Expense,Travel Purchase,Personal,Platinum Mastercard *1820,-154.72,Travel
+2026-04-11,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2567.28,Services
+2026-04-11,Expense,Sub: ChatGPT Plus,Business,Business Checking *9901,-20.0,Services
+2026-04-12,Expense,Supply Warehouse,Business,Business Checking *9901,-294.47,Services
+2026-04-12,Transfer,CC Pmt 1820,Personal,Adv SafeBalance *2290,-1612.21,Bills
+2026-04-12,Payment,Payment Received,Personal,Platinum Mastercard *1820,1612.21,Bills
+2026-04-12,Transfer,CC Pmt 5541,Personal,Adv SafeBalance *2290,-1410.49,Bills
+2026-04-12,Payment,Payment Received,Personal,Travel Rewards *5541,1410.49,Bills
+2026-04-13,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1325.55,Services
+2026-04-13,Expense,Supply Warehouse,Business,Business Checking *9901,-453.8,Services
+2026-04-13,Expense,Sub: iCloud+,Personal,Platinum Mastercard *1820,-9.99,Bills
+2026-04-13,Expense,Transport Purchase,Personal,Platinum Mastercard *1820,-127.3,Transport
+2026-04-14,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1785.29,Services
+2026-04-14,Expense,Supply Warehouse,Business,Business Checking *9901,-439.32,Services
+2026-04-15,Expense,Sub: Hulu,Personal,Travel Rewards *5541,-14.99,Entertainment
+2026-04-15,Expense,Shopping Purchase,Personal,Travel Rewards *5541,-125.86,Shopping
+2026-04-16,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1245.41,Services
+2026-04-17,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,2499.04,Services
+2026-04-17,Expense,Sub: Microsoft 365,Business,Business Checking *9901,-6.99,Services
+2026-04-18,Deposit,Client Pmt: Plumbing,Business,Business Checking *9901,1089.3,Services
+2026-04-18,Expense,Supply Warehouse,Business,Business Checking *9901,-153.28,Services
+2026-04-18,Expense,Health Purchase,Personal,Platinum Mastercard *1820,-108.16,Health

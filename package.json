@@ -1,0 +1,11 @@
+{
+  "name": "myfin",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"d:\\hacMesa\\MyFin\\backend\\.venv\\Scripts\\python.exe d:\\hacMesa\\MyFin\\backend\\manage.py runserver\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

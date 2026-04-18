@@ -1,0 +1,16 @@
+# name,price_usd,frequency,category,default_day_of_month,is_business
+Spotify,11.99,monthly,Subscriptions & Services,11,false
+Apple Music,10.99,monthly,Subscriptions & Services,13,false
+Netflix,15.49,monthly,Subscriptions & Services,10,false
+Disney+,7.99,monthly,Subscriptions & Services,16,false
+Amazon Prime Video,8.99,monthly,Subscriptions & Services,18,false
+Hulu,7.99,monthly,Subscriptions & Services,19,false
+YouTube Premium,13.99,monthly,Subscriptions & Services,21,false
+YouTube Music,10.99,monthly,Subscriptions & Services,22,false
+Google One,1.99,monthly,Subscriptions & Services,8,false
+iCloud+,0.99,monthly,Subscriptions & Services,9,false
+Microsoft 365,6.99,monthly,Subscriptions & Services,23,false
+Google Workspace,6.00,monthly,Subscriptions & Services,12,true
+Adobe Creative Cloud,59.99,monthly,Subscriptions & Services,24,true
+Canva,14.99,monthly,Subscriptions & Services,25,true
+ChatGPT,20.00,monthly,Subscriptions & Services,26,false

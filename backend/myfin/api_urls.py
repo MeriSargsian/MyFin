@@ -1,6 +1,7 @@
 from django.urls import path
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+from accounts.views import RegisterView
 from banking.views import (
     AccountDeactivateView,
     AccountListCreateView,
@@ -17,6 +18,7 @@ from transactions.views import TransactionListCreateView, TransactionDetailView
 urlpatterns = [
     path("auth/login/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("auth/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path("auth/register/", RegisterView.as_view(), name="register"),
     path("main/", MainView.as_view(), name="main"),
     path("accounts/", AccountListCreateView.as_view(), name="account_create"),
     path("accounts/<int:pk>/deactivate/", AccountDeactivateView.as_view(), name="account_deactivate"),

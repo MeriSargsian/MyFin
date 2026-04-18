@@ -4,32 +4,32 @@ export type TokenPair = {
 }
 
 export function getAccessToken(): string {
-  return localStorage.getItem('accessToken') || ''
+  return sessionStorage.getItem('accessToken') || ''
 }
 
 export function getRefreshToken(): string {
-  return localStorage.getItem('refreshToken') || ''
+  return sessionStorage.getItem('refreshToken') || ''
 }
 
 export function setAccessToken(token: string): void {
   if (!token) {
-    localStorage.removeItem('accessToken')
+    sessionStorage.removeItem('accessToken')
     return
   }
-  localStorage.setItem('accessToken', token)
+  sessionStorage.setItem('accessToken', token)
 }
 
 export function setRefreshToken(token: string): void {
   if (!token) {
-    localStorage.removeItem('refreshToken')
+    sessionStorage.removeItem('refreshToken')
     return
   }
-  localStorage.setItem('refreshToken', token)
+  sessionStorage.setItem('refreshToken', token)
 }
 
 export function clearAuth(): void {
-  localStorage.removeItem('accessToken')
-  localStorage.removeItem('refreshToken')
+  sessionStorage.removeItem('accessToken')
+  sessionStorage.removeItem('refreshToken')
 }
 
 async function refreshAccessToken(): Promise<string> {
@@ -99,7 +99,28 @@ export async function login(username: string, password: string): Promise<TokenPa
     throw new Error(text || `Login failed: ${resp.status}`)
   }
 
-  return (await resp.json()) as TokenPair
+  const tokens = (await resp.json()) as TokenPair
+  if (tokens?.refresh) setRefreshToken(tokens.refresh)
+  return tokens
+}
+
+export async function register(username: string, email: string, password: string, password2: string): Promise<TokenPair> {
+  const resp = await fetch('/api/auth/register/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ username, email, password, password2 }),
+  })
+
+  if (!resp.ok) {
+    const text = await resp.text()
+    throw new Error(text || `Register failed: ${resp.status}`)
+  }
+
+  const tokens = (await resp.json()) as TokenPair
+  if (tokens?.refresh) setRefreshToken(tokens.refresh)
+  return tokens
 }
 
 export type Account = {

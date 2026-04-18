@@ -12,6 +12,7 @@ import {
   listTransactions,
   listTransactionsPaged,
   login,
+  register,
   setAccessToken,
   updateTransaction,
   type Account,
@@ -237,8 +238,11 @@ function accountTypeLabel(type: string, brand: string): string {
 }
 
 function App() {
-  const [username, setUsername] = useState('test')
+  const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
+  const [password2, setPassword2] = useState('')
+  const [email, setEmail] = useState('')
+  const [authMode, setAuthMode] = useState<'login' | 'register'>('login')
   const [accessTokenState, setAccessTokenState] = useState<string>(getAccessToken())
   const [error, setError] = useState<string>('')
   const [loading, setLoading] = useState(false)
@@ -461,6 +465,9 @@ function App() {
       setAccessTokenState(getAccessToken())
       setUsername('')
       setPassword('')
+      setPassword2('')
+      setEmail('')
+      setAuthMode('login')
     }
   }, [isAuthed])
 
@@ -1310,7 +1317,24 @@ function App() {
     setError('')
     setLoading(true)
     try {
-      const tokens = await login(username, password)
+      const u = (username || '').trim()
+      if (!u) throw new Error('Username is required')
+      if (!password) throw new Error('Password is required')
+
+      if (authMode === 'register') {
+        const e = (email || '').trim()
+        if (!e) throw new Error('Email is required')
+        if (!password2) throw new Error('Confirm password is required')
+        if (password !== password2) throw new Error('Passwords do not match')
+        const tokens = await register(u, e, password, password2)
+        setAccessToken(tokens.access)
+        setAccessTokenState(tokens.access)
+        setPassword('')
+        setPassword2('')
+        return
+      }
+
+      const tokens = await login(u, password)
       setAccessToken(tokens.access)
       setAccessTokenState(tokens.access)
       setPassword('')
@@ -1329,23 +1353,63 @@ function App() {
         <div className="card">
           <h1>MyFin</h1>
 
+          <div className="muted" style={{ marginBottom: 12 }}>
+            {authMode === 'login' ? 'Sign in to your account' : 'Create a new account'}
+          </div>
+
           <form onSubmit={onSubmit} autoComplete="off">
             <div className="row">
               <label className="label">Username</label>
               <input className="input" autoComplete="username" value={username} onChange={(e) => setUsername(e.target.value)} />
             </div>
+
+            {authMode === 'register' ? (
+              <div className="row">
+                <label className="label">Email</label>
+                <input className="input" type="email" autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+              </div>
+            ) : null}
+
             <div className="row">
               <label className="label">Password</label>
               <input
                 className="input"
                 type="password"
-                autoComplete="new-password"
+                autoComplete={authMode === 'login' ? 'current-password' : 'new-password'}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
+
+            {authMode === 'register' ? (
+              <div className="row">
+                <label className="label">Confirm Password</label>
+                <input
+                  className="input"
+                  type="password"
+                  autoComplete="new-password"
+                  value={password2}
+                  onChange={(e) => setPassword2(e.target.value)}
+                />
+              </div>
+            ) : null}
+
             <button className="button" type="submit" disabled={loading}>
-              {loading ? 'Logging in...' : 'Login'}
+              {loading ? (authMode === 'login' ? 'Logging in...' : 'Creating account...') : authMode === 'login' ? 'Login' : 'Create account'}
+            </button>
+
+            <button
+              type="button"
+              className="navLink"
+              style={{ marginLeft: 10 }}
+              disabled={loading}
+              onClick={() => {
+                setError('')
+                setPassword2('')
+                setAuthMode((m) => (m === 'login' ? 'register' : 'login'))
+              }}
+            >
+              {authMode === 'login' ? 'Create account' : 'Back to login'}
             </button>
           </form>
 

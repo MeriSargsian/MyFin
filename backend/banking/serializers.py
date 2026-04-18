@@ -4,7 +4,11 @@ from .models import Account
 
 
 class AccountSerializer(serializers.ModelSerializer):
-    balance = serializers.DecimalField(max_digits=14, decimal_places=2, read_only=True)
+    balance = serializers.SerializerMethodField()
+
+    def get_balance(self, obj):
+        v = getattr(obj, "balance", None)
+        return v if v is not None else "0.00"
 
     class Meta:
         model = Account

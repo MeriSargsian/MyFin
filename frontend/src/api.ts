@@ -119,6 +119,41 @@ export type MainResponse = {
   accounts: Account[]
 }
 
+export type AccountCreateRequest = {
+  name: string
+  type: string
+  last4?: string
+  brand?: string
+  default_is_business?: boolean
+}
+
+export async function createAccount(payload: AccountCreateRequest): Promise<Account> {
+  const resp = await authedFetch('/api/accounts/', {
+    method: 'POST',
+    body: JSON.stringify(payload),
+  })
+
+  if (!resp.ok) {
+    const text = await resp.text()
+    throw new Error(text || `Request failed: ${resp.status}`)
+  }
+
+  return (await resp.json()) as Account
+}
+
+export async function deactivateAccount(id: number): Promise<{ ok: boolean }> {
+  const resp = await authedFetch(`/api/accounts/${id}/deactivate/`, {
+    method: 'POST',
+  })
+
+  if (!resp.ok) {
+    const text = await resp.text()
+    throw new Error(text || `Request failed: ${resp.status}`)
+  }
+
+  return (await resp.json()) as { ok: boolean }
+}
+
 export async function getMain(): Promise<MainResponse> {
   const resp = await authedFetch('/api/main/', {})
 

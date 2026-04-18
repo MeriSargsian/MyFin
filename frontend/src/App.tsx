@@ -2,6 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
 import {
   clearAuth,
+  createAccount,
+  deactivateAccount,
   getAccessToken,
   getMain,
   getRealEstateAppreciation,
@@ -258,6 +260,21 @@ function App() {
   const [accountsLoading, setAccountsLoading] = useState(false)
   const [accounts, setAccounts] = useState<Account[]>([])
 
+  const [addCardOpen, setAddCardOpen] = useState(false)
+  const [addCardName, setAddCardName] = useState('')
+  const [addCardType, setAddCardType] = useState<'card' | 'checking' | 'cash'>('card')
+  const [addCardBrand, setAddCardBrand] = useState('')
+  const [addCardLast4, setAddCardLast4] = useState('')
+  const [addCardIsBusiness, setAddCardIsBusiness] = useState(false)
+  const [addCardLoading, setAddCardLoading] = useState(false)
+  const [addCardError, setAddCardError] = useState('')
+
+  const [confirmOpen, setConfirmOpen] = useState(false)
+  const [confirmTitle, setConfirmTitle] = useState('')
+  const [confirmMessage, setConfirmMessage] = useState('')
+  const [confirmBusy, setConfirmBusy] = useState(false)
+  const confirmActionRef = useRef<(() => Promise<void>) | null>(null)
+
   const [txLoading, setTxLoading] = useState(false)
   const [txError, setTxError] = useState('')
   const [txs, setTxs] = useState<Transaction[]>([])
@@ -422,6 +439,63 @@ function App() {
       setPassword('')
     }
   }, [isAuthed])
+
+  const refreshAccounts = useCallback(async () => {
+    setAccountsError('')
+    setAccountsLoading(true)
+    try {
+      const data = await getMain()
+      setAccounts(data.accounts)
+    } catch (err) {
+      setAccountsError(err instanceof Error ? err.message : 'Failed to load accounts')
+    } finally {
+      setAccountsLoading(false)
+    }
+  }, [])
+
+  const onOpenAddCard = useCallback(() => {
+    setAddCardError('')
+    setAddCardName('')
+    setAddCardType('card')
+    setAddCardBrand('')
+    setAddCardLast4('')
+    setAddCardIsBusiness(false)
+    setAddCardOpen(true)
+  }, [])
+
+  const onSubmitAddCard = useCallback(async () => {
+    setAddCardError('')
+    setAddCardLoading(true)
+    try {
+      await createAccount({
+        name: addCardName.trim(),
+        type: addCardType,
+        brand: addCardBrand.trim(),
+        last4: addCardLast4.trim(),
+        default_is_business: addCardIsBusiness,
+      })
+      setAddCardOpen(false)
+      await refreshAccounts()
+    } catch (err) {
+      setAddCardError(err instanceof Error ? err.message : 'Failed to add card')
+    } finally {
+      setAddCardLoading(false)
+    }
+  }, [addCardBrand, addCardIsBusiness, addCardLast4, addCardName, addCardType, refreshAccounts])
+
+  const onDeleteAccount = useCallback(
+    async (a: Account) => {
+      const label = `${a.name}${a.last4 ? ` **${a.last4}` : ''}`
+      setConfirmTitle('Delete card/account')
+      setConfirmMessage(label)
+      confirmActionRef.current = async () => {
+        await deactivateAccount(a.id)
+        await refreshAccounts()
+      }
+      setConfirmOpen(true)
+    },
+    [refreshAccounts]
+  )
 
   useEffect(() => {
     if (!isAuthed) {
@@ -1313,16 +1387,136 @@ function App() {
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center' }}>
                               <div className="acctAmount">{fmtMoney(net)}</div>
+                              <button
+                                type="button"
+                                className="navLink"
+                                style={{ marginLeft: 10 }}
+                                onClick={() => onDeleteAccount(a)}
+                                aria-label="Delete card"
+                              >
+                                Delete
+                              </button>
                             </div>
                           </div>
                         )
                       })}
                     </div>
-                    <button type="button" className="addCardBtn">
+                    <button type="button" className="addCardBtn" onClick={onOpenAddCard}>
                       + Add a card
                     </button>
                   </div>
                 </div>
+
+                {addCardOpen ? (
+                  <div
+                    className="modalOverlay"
+                    role="dialog"
+                    aria-modal="true"
+                    onMouseDown={(e) => {
+                      if (e.target === e.currentTarget) setAddCardOpen(false)
+                    }}
+                  >
+                    <div className="card modalCard">
+                      <div className="modalTitle">Add a card/account</div>
+                      <div className="toolbar">
+                        <div className="field" style={{ flex: 1, minWidth: 220 }}>
+                          <div className="label">Name</div>
+                          <input className="input" value={addCardName} onChange={(e) => setAddCardName(e.target.value)} />
+                        </div>
+                        <div className="field" style={{ width: 160 }}>
+                          <div className="label">Type</div>
+                          <select className="select" value={addCardType} onChange={(e) => setAddCardType(e.target.value as any)}>
+                            <option value="card">Card</option>
+                            <option value="checking">Checking</option>
+                            <option value="cash">Cash</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div style={{ height: 10 }} />
+                      <div className="toolbar">
+                        <div className="field" style={{ flex: 1, minWidth: 220 }}>
+                          <div className="label">Brand</div>
+                          <input className="input" value={addCardBrand} onChange={(e) => setAddCardBrand(e.target.value)} placeholder="Visa, MasterCard…" />
+                        </div>
+                        <div className="field" style={{ width: 160 }}>
+                          <div className="label">Last 4</div>
+                          <input className="input" value={addCardLast4} onChange={(e) => setAddCardLast4(e.target.value)} placeholder="1234" inputMode="numeric" />
+                        </div>
+                      </div>
+                      <div style={{ height: 10 }} />
+                      <label className="muted" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                        <input type="checkbox" checked={addCardIsBusiness} onChange={(e) => setAddCardIsBusiness(e.target.checked)} />
+                        Default business account
+                      </label>
+                      {addCardError ? <div className="error" style={{ marginTop: 10 }}>{addCardError}</div> : null}
+                      <div style={{ height: 14 }} />
+                      <div className="modalActions">
+                        <button type="button" className="button buttonSecondary" onClick={() => setAddCardOpen(false)}>
+                          Cancel
+                        </button>
+                        <button
+                          type="button"
+                          className="button"
+                          disabled={addCardLoading || !addCardName.trim()}
+                          onClick={onSubmitAddCard}
+                        >
+                          {addCardLoading ? 'Saving…' : 'Add'}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ) : null}
+
+                {confirmOpen ? (
+                  <div
+                    className="modalOverlay"
+                    role="dialog"
+                    aria-modal="true"
+                    onMouseDown={(e) => {
+                      if (confirmBusy) return
+                      if (e.target === e.currentTarget) setConfirmOpen(false)
+                    }}
+                  >
+                    <div className="card modalCard">
+                      <div className="modalTitle">{confirmTitle}</div>
+                      <div className="muted">{confirmMessage}</div>
+                      <div style={{ height: 14 }} />
+                      <div className="modalActions">
+                        <button
+                          type="button"
+                          className="button buttonSecondary"
+                          disabled={confirmBusy}
+                          onClick={() => setConfirmOpen(false)}
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          type="button"
+                          className="button buttonDanger"
+                          disabled={confirmBusy}
+                          onClick={async () => {
+                            const fn = confirmActionRef.current
+                            if (!fn) {
+                              setConfirmOpen(false)
+                              return
+                            }
+                            setConfirmBusy(true)
+                            try {
+                              await fn()
+                              setConfirmOpen(false)
+                            } catch (err) {
+                              alert(err instanceof Error ? err.message : 'Failed')
+                            } finally {
+                              setConfirmBusy(false)
+                            }
+                          }}
+                        >
+                          {confirmBusy ? 'Deleting…' : 'Delete'}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ) : null}
               </div>
 
               <div className="rightCol">

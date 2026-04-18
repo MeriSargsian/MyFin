@@ -116,7 +116,6 @@ export default function DashboardPage(props: Props) {
             accountTypeLabel={accountTypeLabel}
           />
         </div>
-
         <div className="rightCol">
           <MonthlySpendingsCard
             accounts={accounts}
@@ -136,7 +135,8 @@ export default function DashboardPage(props: Props) {
             fmtMoney={fmtMoney}
             arcPath={arcPath}
           />
-
+        </div>
+        <div className="thirdPanel">
           <TrendsCard
             trendsMode={trendsMode}
             trendsYear={trendsYear}
@@ -151,10 +151,10 @@ export default function DashboardPage(props: Props) {
             monthShort={monthShort}
             fmtMoney={fmtMoney}
           />
-
-          <SubscriptionsCard subscriptions={subscriptions} subsLoading={subsLoading} subsError={subsError} fmtMoney={fmtMoney} />
         </div>
       </div>
+      <SubscriptionsCard subscriptions={subscriptions} subsLoading={subsLoading} subsError={subsError} fmtMoney={fmtMoney} />
+
     </div>
   )
 }

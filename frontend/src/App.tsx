@@ -10,8 +10,10 @@ import {
   getVehicleValue,
   listCategories,
   listTransactions,
+  listTransactionsPaged,
   login,
   setAccessToken,
+  updateTransaction,
   type Account,
   type Category,
   type RealEstateAppreciationResponse,
@@ -23,6 +25,17 @@ function fmtMoney(v: number): string {
   const sign = v < 0 ? '-' : ''
   const abs = Math.abs(v)
   return `${sign}$${abs.toFixed(2)}`
+}
+
+function fmtDateUS(iso: string): string {
+  const s = (iso || '').trim()
+  if (!s) return ''
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})$/)
+  if (!m) return s
+  const yyyy = m[1]!
+  const mm = m[2]!
+  const dd = m[3]!
+  return `${mm}/${dd}/${yyyy}`
 }
 
 function metricValueFontSizePx(s: string): number {
@@ -284,6 +297,17 @@ function App() {
   const [txMerchant, setTxMerchant] = useState('')
   const [txAccount, setTxAccount] = useState<number | ''>('')
   const [txBiz, setTxBiz] = useState<boolean | ''>('')
+  const [txPage, setTxPage] = useState(1)
+  const [txTotal, setTxTotal] = useState(0)
+  const [txHasNext, setTxHasNext] = useState(false)
+  const [txHasPrev, setTxHasPrev] = useState(false)
+
+  const txTableRef = useRef<HTMLDivElement | null>(null)
+
+  const TX_PAGE_SIZE = 25
+  const txTotalPages = useMemo(() => Math.max(1, Math.ceil(txTotal / TX_PAGE_SIZE)), [txTotal])
+
+  const txMerchantTrimmed = useMemo(() => (txMerchant || '').trim(), [txMerchant])
 
   const [dashLoading, setDashLoading] = useState(false)
   const [dashError, setDashError] = useState('')
@@ -561,17 +585,27 @@ function App() {
     let alive = true
     setTxError('')
     setTxLoading(true)
-    listTransactions({
+    listTransactionsPaged({
       from_date: txFrom || undefined,
       to_date: txTo || undefined,
       type: txType || undefined,
-      merchant: txMerchant || undefined,
+      merchant: txMerchantTrimmed || undefined,
       account: txAccount === '' ? undefined : txAccount,
       is_business: txBiz === '' ? undefined : txBiz,
+      page: txPage,
     })
       .then((data) => {
         if (!alive) return
-        setTxs(data)
+        const anyData = data as any
+        const results: Transaction[] = Array.isArray(anyData) ? anyData : anyData?.results || []
+        const count: number = typeof anyData?.count === 'number' ? anyData.count : results.length
+        const next: string | null = typeof anyData?.next === 'string' ? anyData.next : null
+        const prev: string | null = typeof anyData?.previous === 'string' ? anyData.previous : null
+
+        setTxs(results)
+        setTxTotal(count)
+        setTxHasNext(Boolean(next))
+        setTxHasPrev(Boolean(prev))
       })
       .catch((err) => {
         if (!alive) return
@@ -589,7 +623,17 @@ function App() {
     return () => {
       alive = false
     }
-  }, [activeTab, isAuthed, txAccount, txBiz, txFrom, txMerchant, txTo, txType])
+  }, [activeTab, isAuthed, txAccount, txBiz, txFrom, txMerchantTrimmed, txPage, txTo, txType])
+
+  useEffect(() => {
+    if (activeTab !== 'transactions') return
+    if (txPage !== 1) setTxPage(1)
+  }, [activeTab, txAccount, txBiz, txFrom, txMerchantTrimmed, txTo, txType])
+
+  useEffect(() => {
+    if (activeTab !== 'transactions') return
+    txTableRef.current?.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [activeTab, txPage])
 
   useEffect(() => {
     if (!isAuthed) {
@@ -1751,15 +1795,17 @@ function App() {
         ) : activeTab === 'transactions' ? (
           <div>
             <h1>Transactions</h1>
-            <div className="card">
+            <div className="card transactionsFrame">
               <div className="toolbar">
-                <div className="field">
+                <div className="field dateField">
                   <div className="label">From</div>
-                  <input className="input" type="date" value={txFrom} onChange={(e) => setTxFrom(e.target.value)} />
+                  <div className={`dateFieldValue ${txFrom ? '' : 'dateFieldValuePlaceholder'}`}>{txFrom ? fmtDateUS(txFrom) : 'MM/DD/YYYY'}</div>
+                  <input className="input" type="date" lang="en-US" value={txFrom} onChange={(e) => setTxFrom(e.target.value)} />
                 </div>
-                <div className="field">
+                <div className="field dateField">
                   <div className="label">To</div>
-                  <input className="input" type="date" value={txTo} onChange={(e) => setTxTo(e.target.value)} />
+                  <div className={`dateFieldValue ${txTo ? '' : 'dateFieldValuePlaceholder'}`}>{txTo ? fmtDateUS(txTo) : 'MM/DD/YYYY'}</div>
+                  <input className="input" type="date" lang="en-US" value={txTo} onChange={(e) => setTxTo(e.target.value)} />
                 </div>
                 <div className="field">
                   <div className="label">Type</div>
@@ -1805,11 +1851,58 @@ function App() {
                 </div>
               </div>
 
-              {txLoading ? <div className="muted" style={{ marginTop: 10 }}>Loading...</div> : null}
-              {txError ? <div className="error">{txError}</div> : null}
+              <div style={{ height: 10 }} />
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
+                <div className="muted">
+                  {txTotal ? `Total: ${txTotal}` : ''}
+                </div>
+                <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
+                  <button
+                    type="button"
+                    className="button buttonSecondary"
+                    disabled={txLoading || txPage <= 1}
+                    onClick={() => setTxPage(1)}
+                  >
+                    First
+                  </button>
+                  <button
+                    type="button"
+                    className="button buttonSecondary"
+                    disabled={txLoading || txPage <= 1 || !txHasPrev}
+                    onClick={() => setTxPage((p) => Math.max(1, p - 1))}
+                  >
+                    Prev
+                  </button>
+                  <div className="muted">Page {txPage} / {txTotalPages}</div>
+                  <button
+                    type="button"
+                    className="button"
+                    disabled={txLoading || !txHasNext}
+                    onClick={() => setTxPage((p) => p + 1)}
+                  >
+                    Next
+                  </button>
+                  <button
+                    type="button"
+                    className="button"
+                    disabled={txLoading || txPage >= txTotalPages}
+                    onClick={() => setTxPage(txTotalPages)}
+                  >
+                    Last
+                  </button>
+                </div>
+              </div>
 
               <div style={{ height: 12 }} />
-              <div className="tableWrap tableWrapTransactions">
+              <div
+                ref={txTableRef}
+                className={`tableWrap tableWrapTransactions txTableWrap ${txLoading ? 'txTableWrapLoading' : ''}`}
+              >
+                {txLoading ? (
+                  <div className="txTableLoadingOverlay">
+                    <div className="txTableLoadingPill">Loading...</div>
+                  </div>
+                ) : null}
                 <table className="table">
                   <thead>
                     <tr>
@@ -1829,7 +1922,22 @@ function App() {
                         <td>{t.account ? accounts.find((a) => a.id === t.account)?.name || t.account : '-'}</td>
                         <td>{catsById.get(t.category) || `Category ${t.category}`}</td>
                         <td>
-                          <input className="txCheckbox" type="checkbox" checked={t.is_business} readOnly />
+                          <input
+                            className="txCheckbox"
+                            type="checkbox"
+                            checked={t.is_business}
+                            onChange={async (e) => {
+                              const next = e.target.checked
+                              const prev = t.is_business
+                              setTxs((xs) => xs.map((x) => (x.id === t.id ? { ...x, is_business: next } : x)))
+                              try {
+                                await updateTransaction(t.id, { is_business: next })
+                              } catch (err) {
+                                setTxs((xs) => xs.map((x) => (x.id === t.id ? { ...x, is_business: prev } : x)))
+                                alert(err instanceof Error ? err.message : 'Failed to update transaction')
+                              }
+                            }}
+                          />
                         </td>
                         <td style={{ textAlign: 'right' }}>{t.amount}</td>
                       </tr>
@@ -1844,6 +1952,8 @@ function App() {
                   </tbody>
                 </table>
               </div>
+
+              {txError ? <div className="error">{txError}</div> : null}
             </div>
           </div>
         ) : activeTab === 'calculator' ? (

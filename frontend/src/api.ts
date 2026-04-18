@@ -182,7 +182,10 @@ export async function listCategories(): Promise<Category[]> {
     throw new Error(text || `Request failed: ${resp.status}`)
   }
 
-  return (await resp.json()) as Category[]
+  const anyData = (await resp.json()) as any
+  if (Array.isArray(anyData)) return anyData as Category[]
+  if (anyData && Array.isArray(anyData.results)) return anyData.results as Category[]
+  return []
 }
 
 export type Transaction = {
@@ -198,6 +201,22 @@ export type Transaction = {
   updated_at: string
 }
 
+export type TransactionPatchRequest = Partial<Pick<Transaction, 'account' | 'amount' | 'type' | 'category' | 'is_business' | 'date' | 'merchant'>>
+
+export async function updateTransaction(id: number, patch: TransactionPatchRequest): Promise<Transaction> {
+  const resp = await authedFetch(`/api/transaction/${id}/`, {
+    method: 'PATCH',
+    body: JSON.stringify(patch),
+  })
+
+  if (!resp.ok) {
+    const text = await resp.text()
+    throw new Error(text || `Request failed: ${resp.status}`)
+  }
+
+  return (await resp.json()) as Transaction
+}
+
 export type TransactionListResponse = Transaction[]
 
 export type TransactionListParams = {
@@ -208,6 +227,7 @@ export type TransactionListParams = {
   merchant?: string
   account?: number | ''
   is_business?: boolean | ''
+  page?: number
 }
 
 function toQuery(params: Record<string, string>): string {
@@ -229,16 +249,49 @@ export async function listTransactions(params: TransactionListParams = {}): Prom
     merchant: params.merchant || '',
     account: typeof params.account === 'number' ? String(params.account) : '',
     is_business: typeof params.is_business === 'boolean' ? String(params.is_business) : '',
+    page: typeof params.page === 'number' && params.page > 0 ? String(params.page) : '',
   })
 
-  const resp = await authedFetch(`/api/transaction/?${query}`, {})
+  const resp = await authedFetch(`/api/transaction/${query}`, {})
 
   if (!resp.ok) {
     const text = await resp.text()
     throw new Error(text || `Request failed: ${resp.status}`)
   }
 
-  return (await resp.json()) as TransactionListResponse
+  const anyData = (await resp.json()) as any
+  if (Array.isArray(anyData)) return anyData as Transaction[]
+  if (anyData && Array.isArray(anyData.results)) return anyData.results as Transaction[]
+  return []
+}
+
+export type Paginated<T> = {
+  count: number
+  next: string | null
+  previous: string | null
+  results: T[]
+}
+
+export async function listTransactionsPaged(params: TransactionListParams = {}): Promise<Paginated<Transaction>> {
+  const query = toQuery({
+    from_date: params.from_date || '',
+    to_date: params.to_date || '',
+    type: params.type || '',
+    category: typeof params.category === 'number' ? String(params.category) : '',
+    merchant: params.merchant || '',
+    account: typeof params.account === 'number' ? String(params.account) : '',
+    is_business: typeof params.is_business === 'boolean' ? String(params.is_business) : '',
+    page: typeof params.page === 'number' && params.page > 0 ? String(params.page) : '',
+  })
+
+  const resp = await authedFetch(`/api/transaction/${query}`, {})
+
+  if (!resp.ok) {
+    const text = await resp.text()
+    throw new Error(text || `Request failed: ${resp.status}`)
+  }
+
+  return (await resp.json()) as Paginated<Transaction>
 }
 
 export type RealEstateAppreciationRequest = {

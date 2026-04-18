@@ -387,6 +387,7 @@ function App() {
   const [trendsError, setTrendsError] = useState('')
   const [trendsYear, setTrendsYear] = useState<number>(() => new Date().getFullYear())
   const [trendsMode, setTrendsMode] = useState<'income' | 'spendings'>('income')
+  const [trendsScope, setTrendsScope] = useState<'business' | 'self'>('business')
   const [trendsTxs, setTrendsTxs] = useState<Transaction[]>([])
   const [trendsAllTxs, setTrendsAllTxs] = useState<Transaction[]>([])
   const [trendsYearsAvailable, setTrendsYearsAvailable] = useState<number[]>([])
@@ -641,8 +642,21 @@ function App() {
 
   useEffect(() => {
     if (trendsAllTxs.length === 0) return
-    setTrendsTxs(trendsAllTxs.filter((t) => String(t.date || '').startsWith(String(trendsYear))))
-  }, [trendsAllTxs, trendsYear])
+
+    const yearTxs = trendsAllTxs.filter((t) => String(t.date || '').startsWith(String(trendsYear)))
+
+    if (trendsScope === 'business') {
+      setTrendsTxs(yearTxs.filter((t) => Boolean(t.is_business)))
+      return
+    }
+
+    const debitIds = new Set(accounts.filter((a) => a.type === 'debit').map((a) => a.id))
+    if (debitIds.size === 0) {
+      setTrendsTxs(yearTxs)
+      return
+    }
+    setTrendsTxs(yearTxs.filter((t) => (typeof t.account === 'number' ? debitIds.has(t.account) : false)))
+  }, [accounts, trendsAllTxs, trendsScope, trendsYear])
 
   useEffect(() => {
     if (!isAuthed) {
@@ -1017,46 +1031,20 @@ function App() {
   }, [trendsTxs, trendsYear])
 
   const trendsMetrics = useMemo(() => {
-    const now = new Date()
-    const currentYear = now.getFullYear()
-    const currentMonth = now.getMonth()
-
-    const bizIncome = Array.from({ length: 12 }, () => 0)
-    const bizSpendings = Array.from({ length: 12 }, () => 0)
-
+    let revenue = 0
+    let expenses = 0
     for (const t of trendsTxs) {
-      if (!t.is_business) continue
       const dt = new Date(t.date)
       if (dt.getFullYear() !== trendsYear) continue
-      const m = dt.getMonth()
       const amt = Math.abs(Number(t.amount) || 0)
-      if (t.type === 'income') bizIncome[m] += amt
-      else bizSpendings[m] += amt
+      if (t.type === 'income') revenue += amt
+      else expenses += amt
     }
-
-    const hasData = (idx: number) => (bizIncome[idx] || 0) > 0 || (bizSpendings[idx] || 0) > 0
-
-    let idx = currentMonth
-    if (trendsYear !== currentYear || !hasData(idx)) {
-      let found = -1
-      for (let i = 11; i >= 0; i--) {
-        if (hasData(i)) {
-          found = i
-          break
-        }
-      }
-      idx = found >= 0 ? found : currentMonth
-    }
-
-    const revenue = bizIncome[idx] || 0
-    const expenses = bizSpendings[idx] || 0
     const profit = revenue - expenses
-    const estimatedTaxes = Math.max(0, profit) * 0.25
+    const estimatedTaxes = trendsScope === 'business' ? Math.max(0, profit) * 0.25 : 0
 
-    const label = trendsYear === currentYear ? 'this month' : monthShort(idx)
-
-    return { idx, revenue, expenses, profit, estimatedTaxes, label }
-  }, [trendsTxs, trendsYear])
+    return { revenue, expenses, profit, estimatedTaxes }
+  }, [trendsScope, trendsTxs, trendsYear])
 
   const trendSeries = useMemo(() => {
     const max = Math.max(1, ...monthly.income, ...monthly.spendings)
@@ -1450,6 +1438,10 @@ function App() {
                         Spendings
                       </button>
                     </div>
+                    <select className="select pillSelect" value={trendsScope} onChange={(e) => setTrendsScope(e.target.value as any)}>
+                      <option value="business">Business</option>
+                      <option value="self">Self balance</option>
+                    </select>
                     <select className="select pillSelect" value={String(trendsYear)} onChange={(e) => setTrendsYear(Number(e.target.value))}>
                       {(trendsYearsAvailable.length > 0 ? trendsYearsAvailable : [new Date().getFullYear()]).map((y) => (
                         <option key={y} value={y}>
@@ -1512,12 +1504,12 @@ function App() {
                     <div className="stat">
                       <div className="muted">Revenue</div>
                       <div className="statValue">{fmtMoney(trendsMetrics.revenue)}</div>
-                      <div className="muted">{trendsMetrics.label}</div>
+                      <div className="muted">{trendsYear}</div>
                     </div>
                     <div className="stat">
                       <div className="muted">Expenses</div>
                       <div className="statValue">{fmtMoney(trendsMetrics.expenses)}</div>
-                      <div className="muted">{trendsMetrics.label}</div>
+                      <div className="muted">{trendsYear}</div>
                     </div>
                     <div className="stat">
                       <div className="muted">Profit</div>
@@ -1526,8 +1518,8 @@ function App() {
                     </div>
                     <div className="stat">
                       <div className="muted">Estimated Taxes</div>
-                      <div className="statValue">{fmtMoney(trendsMetrics.estimatedTaxes)}</div>
-                      <div className="muted">Est. tax liability</div>
+                      <div className="statValue">{trendsScope === 'self' ? '—' : fmtMoney(trendsMetrics.estimatedTaxes)}</div>
+                      <div className="muted">{trendsScope === 'self' ? '—' : 'Est. tax liability'}</div>
                     </div>
                   </div>
                 </div>

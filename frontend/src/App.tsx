@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
+import './styles.css'
+import CalculatorPage from './pages/CalculatorPage'
 import {
   clearAuth,
   createAccount,
@@ -1957,468 +1959,169 @@ function App() {
             </div>
           </div>
         ) : activeTab === 'calculator' ? (
-          <div className="calcPage">
-            <div className="calcHeader">
-              <div className="calcHeaderLeft">
-                <div className="calcHeaderTitle">Loan Calculator</div>
-              </div>
-            </div>
-            <div className="calcGrid">
-              <div className="card">
-                <div className="panelTitle calcPanelTitleBig">What are you buying?</div>
-                <div className="toolbar">
-                  <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                    <div className="label">Price</div>
-                    <input className="input" value={calcPrice} onChange={(e) => setCalcPrice(e.target.value)} placeholder="$" />
-                  </div>
-                  <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                    <div className="label">Category</div>
-                    <select className="select" value={calcCategory} onChange={(e) => setCalcCategory(e.target.value as any)}>
-                      <option value="Real Estate">Real Estate</option>
-                      <option value="Car">Vehicle</option>
-                      <option value="Tech">Tech</option>
-                      <option value="Other">Other</option>
-                    </select>
-                  </div>
-                </div>
-                <div style={{ height: 10 }} />
-                {calcCategory === 'Tech' || calcCategory === 'Other' ? (
-                  <div className="toolbar">
-                    <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                      <div className="label">Name</div>
-                      <input className="input" value={calcItemName} onChange={(e) => setCalcItemName(e.target.value)} placeholder="" />
-                    </div>
-                  </div>
-                ) : null}
-                {calcCategory === 'Car' ? (
-                  <div className="toolbar">
-                    <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                      <div className="label">Make</div>
-                      <input className="input" value={calcMake} onChange={(e) => setCalcMake(e.target.value)} placeholder="" />
-                    </div>
-                    <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                      <div className="label">Model</div>
-                      <input className="input" value={calcModel} onChange={(e) => setCalcModel(e.target.value)} placeholder="" />
-                    </div>
-                    <div className="field" style={{ width: 140 }}>
-                      <div className="label">Year</div>
-                      <input className="input" value={calcYear} onChange={(e) => setCalcYear(e.target.value)} placeholder="YYYY" />
-                    </div>
-                  </div>
-                ) : null}
+          <CalculatorPage
+            calcPrice={calcPrice}
+            setCalcPrice={setCalcPrice}
+            calcCategory={calcCategory}
+            setCalcCategory={setCalcCategory}
+            calcItemName={calcItemName}
+            setCalcItemName={setCalcItemName}
+            calcMake={calcMake}
+            setCalcMake={setCalcMake}
+            calcModel={calcModel}
+            setCalcModel={setCalcModel}
+            calcYear={calcYear}
+            setCalcYear={setCalcYear}
+            reZip={reZip}
+            setReZip={setReZip}
+            reCity={reCity}
+            setReCity={setReCity}
+            reState={reState}
+            setReState={setReState}
+            reType={reType}
+            setReType={setReType}
+            reSqft={reSqft}
+            setReSqft={setReSqft}
+            reBedrooms={reBedrooms}
+            setReBedrooms={setReBedrooms}
+            reBathrooms={reBathrooms}
+            setReBathrooms={setReBathrooms}
+            reTxCostPct={reTxCostPct}
+            setReTxCostPct={setReTxCostPct}
+            reApp={reApp}
+            reAppLoading={reAppLoading}
+            calcPayMode={calcPayMode}
+            setCalcPayMode={setCalcPayMode}
+            calcDownPayment={calcDownPayment}
+            setCalcDownPayment={setCalcDownPayment}
+            calcApr={calcApr}
+            setCalcApr={setCalcApr}
+            calcPlanMode={calcPlanMode}
+            setCalcPlanMode={setCalcPlanMode}
+            calcTermMonthsText={calcTermMonthsText}
+            setCalcTermMonthsText={setCalcTermMonthsText}
+            calcTermMonths={calcTermMonths}
+            setCalcTermMonths={setCalcTermMonths}
+            calcAffordablePayment={calcAffordablePayment}
+            setCalcAffordablePayment={setCalcAffordablePayment}
+            calcHorizonYears={calcHorizonYears}
+            setCalcHorizonYears={setCalcHorizonYears}
+            calcIncome={calcIncome}
+            setCalcIncome={setCalcIncome}
+            setCalcIncomeTouched={setCalcIncomeTouched}
+            calcExpenses={calcExpenses}
+            setCalcExpenses={setCalcExpenses}
+            setCalcExpensesTouched={setCalcExpensesTouched}
+            calcDebtBalance={calcDebtBalance}
+            onCalculate={async () => {
+              setCalcNow(Date.now())
+              setCalcRan(true)
+              if (calcCategory === 'Car') {
+                const make = calcMake.trim()
+                const model = calcModel.trim()
+                const year = Number(calcYear) || 0
+                const currentYear = new Date().getFullYear()
 
-                {calcCategory === 'Real Estate' ? (
-                  <>
-                    <div style={{ height: 14 }} />
-                    <div className="panelTitle">Real Estate details</div>
-                    <div className="toolbar">
-                      <div className="field" style={{ width: 160 }}>
-                        <div className="label">ZIP</div>
-                        <input className="input" value={reZip} onChange={(e) => setReZip(e.target.value)} />
-                      </div>
-                      <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                        <div className="label">City</div>
-                        <input className="input" value={reCity} onChange={(e) => setReCity(e.target.value)} />
-                      </div>
-                      <div className="field" style={{ width: 120 }}>
-                        <div className="label">State</div>
-                        <input className="input" value={reState} onChange={(e) => setReState(e.target.value)} />
-                      </div>
-                    </div>
-                    <div style={{ height: 10 }} />
-                    <div className="toolbar">
-                      <div className="field" style={{ width: 180 }}>
-                        <div className="label">Property type</div>
-                        <select className="select" value={reType} onChange={(e) => setReType(e.target.value as any)}>
-                          <option value="House">House</option>
-                          <option value="Apartment">Apartment</option>
-                        </select>
-                      </div>
-                      <div className="field" style={{ width: 140 }}>
-                        <div className="label">Sqft</div>
-                        <input className="input" value={reSqft} onChange={(e) => setReSqft(e.target.value)} />
-                      </div>
-                      <div className="field" style={{ width: 140 }}>
-                        <div className="label">Bedrooms</div>
-                        <input className="input" value={reBedrooms} onChange={(e) => setReBedrooms(e.target.value)} />
-                      </div>
-                      <div className="field" style={{ width: 140 }}>
-                        <div className="label">Bathrooms</div>
-                        <input className="input" value={reBathrooms} onChange={(e) => setReBathrooms(e.target.value)} />
-                      </div>
-                    </div>
-                    <div style={{ height: 10 }} />
-                    <div className="toolbar">
-                      <div className="field" style={{ width: 220 }}>
-                        <div className="label">Transaction costs (%)</div>
-                        <input className="input" value={reTxCostPct} onChange={(e) => setReTxCostPct(e.target.value)} />
-                      </div>
-                      <div className="field" style={{ flex: 1, minWidth: 220 }}>
-                        <div className="label">Gemini (5y appreciation)</div>
-                        <div className="muted">
-                          {reAppLoading ? 'Loading…' : reApp?.ok ? `${reApp.appreciation_5y_pct.toFixed(1)}% (${reApp.source})` : reApp?.error ? `Fallback (${reApp.error})` : 'Will fetch on Calculate'}
-                        </div>
-                      </div>
-                    </div>
-                  </>
-                ) : null}
+                const termMonths = calcTermMonths
+                const horizonYears = calcPayMode === 'loan' ? Math.round(termMonths / 12) : calcHorizonYears
+                const key = `${make}|${model}|${year}|${horizonYears}|${currentYear}`
 
-                <div style={{ height: 14 }} />
-                <div className="panelTitle">How do you want to pay?</div>
-                <div className="segmented">
-                  <button type="button" className={`segButton ${calcPayMode === 'cash' ? 'segButtonActive' : ''}`} onClick={() => setCalcPayMode('cash')}>
-                    Pay in full
-                  </button>
-                  <button type="button" className={`segButton ${calcPayMode === 'loan' ? 'segButtonActive' : ''}`} onClick={() => setCalcPayMode('loan')}>
-                    Get a loan
-                  </button>
-                </div>
+                if (make && model && year && horizonYears >= 0) {
+                  const TTL_MS = 3 * 60 * 1000
+                  const now = Date.now()
+                  const cached = vehValCacheRef.current.get(key)
 
-                {calcPayMode === 'loan' ? (
-                  <>
-                    <div style={{ height: 12 }} />
-                    <div className="panelTitle">Loan details</div>
-                    <div className="toolbar">
-                      <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                        <div className="label">Down payment</div>
-                        <input className="input" value={calcDownPayment} onChange={(e) => setCalcDownPayment(e.target.value)} />
-                      </div>
-                      <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                        <div className="label">APR</div>
-                        <input className="input" value={calcApr} onChange={(e) => setCalcApr(e.target.value)} />
-                      </div>
-                    </div>
-                    <div style={{ height: 10 }} />
-                    <div className="segmented">
-                      <button type="button" className={`segButton ${calcPlanMode === 'term' ? 'segButtonActive' : ''}`} onClick={() => setCalcPlanMode('term')}>
-                        Choose term
-                      </button>
-                      <button type="button" className={`segButton ${calcPlanMode === 'affordable' ? 'segButtonActive' : ''}`} onClick={() => setCalcPlanMode('affordable')}>
-                        Monthly payment
-                      </button>
-                    </div>
-                    <div style={{ height: 10 }} />
-                    {calcPlanMode === 'term' ? (
-                      <div className="field" style={{ width: 220 }}>
-                        <div className="label">Term (months)</div>
-                        <input
-                          className="input"
-                          value={calcTermMonthsText}
-                          onChange={(e) => {
-                            const v = e.target.value
-                            setCalcTermMonthsText(v)
-                            if (v.trim() === '') {
-                              setCalcTermMonths(0)
-                              return
-                            }
-                            const raw = Number(v)
-                            if (!Number.isFinite(raw)) return
-                            const n = Math.max(1, Math.min(600, Math.round(raw)))
-                            setCalcTermMonths(n)
-                          }}
-                          inputMode="numeric"
-                        />
-                      </div>
-                    ) : (
-                      <div className="field" style={{ width: 320 }}>
-                        <div className="label">Affordable payment ($/month)</div>
-                        <input className="input" value={calcAffordablePayment} onChange={(e) => setCalcAffordablePayment(e.target.value)} placeholder="$" />
-                      </div>
-                    )}
-                  </>
-                ) : (
-                  <>
-                    <div style={{ height: 12 }} />
-                    <div className="panelTitle">True cost horizon</div>
-                    <div className="pillRow">
-                      <button
-                        type="button"
-                        className={`pillButton ${calcHorizonYears === 5 ? 'pillButtonActive' : ''}`}
-                        onClick={() => setCalcHorizonYears(5)}
-                      >
-                        5 years
-                      </button>
-                      <button
-                        type="button"
-                        className={`pillButton ${calcHorizonYears === 10 ? 'pillButtonActive' : ''}`}
-                        onClick={() => setCalcHorizonYears(10)}
-                      >
-                        10 years
-                      </button>
-                      <button
-                        type="button"
-                        className={`pillButton ${calcHorizonYears === 15 ? 'pillButtonActive' : ''}`}
-                        onClick={() => setCalcHorizonYears(15)}
-                      >
-                        15 years
-                      </button>
-                    </div>
-                  </>
-                )}
+                  if (cached?.data) {
+                    setVehVal(cached.data)
+                  }
 
-                <div style={{ height: 14 }} />
-                <div className="panelTitle">Your finances</div>
-                <div className="toolbar">
-                  <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                    <div className="label">Monthly income</div>
-                    <input
-                      className="input"
-                      value={calcIncome}
-                      onChange={(e) => {
-                        setCalcIncomeTouched(true)
-                        setCalcIncome(e.target.value)
-                      }}
-                    />
-                  </div>
-                  <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                    <div className="label">Monthly expenses</div>
-                    <input
-                      className="input"
-                      value={calcExpenses}
-                      onChange={(e) => {
-                        setCalcExpensesTouched(true)
-                        setCalcExpenses(e.target.value)
-                      }}
-                    />
-                  </div>
-                </div>
-                <div style={{ height: 10 }} />
-                <div className="toolbar">
-                  <div className="field" style={{ flex: 1, minWidth: 180 }}>
-                    <div className="label">Current debt (from accounts)</div>
-                    <input className="input" value={fmtMoney(calcDebtBalance)} readOnly />
-                  </div>
-                </div>
-
-                <div style={{ height: 14 }} />
-                <button
-                  className="button calcButtonWide"
-                  type="button"
-                  disabled={calcLoading}
-                  onClick={async () => {
-                    setCalcNow(Date.now())
-                    setCalcRan(true)
-                    if (calcCategory === 'Car') {
-                      const make = calcMake.trim()
-                      const model = calcModel.trim()
-                      const year = Number(calcYear) || 0
-                      const currentYear = new Date().getFullYear()
-
-                      const termMonths = calcTermMonths
-                      const horizonYears = calcPayMode === 'loan' ? Math.round(termMonths / 12) : calcHorizonYears
-                      const key = `${make}|${model}|${year}|${horizonYears}|${currentYear}`
-
-                      if (make && model && year && horizonYears >= 0) {
-                        const TTL_MS = 3 * 60 * 1000
-                        const now = Date.now()
-                        const cached = vehValCacheRef.current.get(key)
-
-                        if (cached?.data) {
-                          setVehVal(cached.data)
-                        }
-
-                        const stale = !cached || now - cached.fetchedAt > TTL_MS
-                        if (stale && !cached?.inFlight) {
-                          const p = getVehicleValue({
-                            make,
-                            model,
-                            year,
-                            horizon_years: horizonYears,
-                            current_year: currentYear,
-                          })
-                          vehValCacheRef.current.set(key, {
-                            fetchedAt: cached?.fetchedAt || 0,
-                            data: cached?.data || {
-                              ok: false,
-                              source: 'fallback',
-                              value_today: 0,
-                              value_at_horizon: 0,
-                            },
-                            inFlight: p,
-                          })
-                          try {
-                            const resp = await p
-                            vehValCacheRef.current.set(key, { fetchedAt: Date.now(), data: resp, inFlight: null })
-                            setVehVal(resp)
-                          } catch (e) {
-                            vehValCacheRef.current.set(key, {
-                              fetchedAt: 0,
-                              data: {
-                                ok: false,
-                                source: 'fallback',
-                                value_today: 0,
-                                value_at_horizon: 0,
-                                error: e instanceof Error ? e.message : 'Failed to fetch vehicle value',
-                              },
-                              inFlight: null,
-                            })
-                            setVehVal({
-                              ok: false,
-                              source: 'fallback',
-                              value_today: 0,
-                              value_at_horizon: 0,
-                              error: e instanceof Error ? e.message : 'Failed to fetch vehicle value',
-                            })
-                          } finally {
-                            // no visible loading UI
-                          }
-                        }
-                      }
+                  const stale = !cached || now - cached.fetchedAt > TTL_MS
+                  if (stale && !cached?.inFlight) {
+                    const p = getVehicleValue({
+                      make,
+                      model,
+                      year,
+                      horizon_years: horizonYears,
+                      current_year: currentYear,
+                    })
+                    vehValCacheRef.current.set(key, {
+                      fetchedAt: cached?.fetchedAt || 0,
+                      data: cached?.data || {
+                        ok: false,
+                        source: 'fallback',
+                        value_today: 0,
+                        value_at_horizon: 0,
+                      },
+                      inFlight: p,
+                    })
+                    try {
+                      const resp = await p
+                      vehValCacheRef.current.set(key, { fetchedAt: Date.now(), data: resp, inFlight: null })
+                      setVehVal(resp)
+                    } catch (e) {
+                      vehValCacheRef.current.set(key, {
+                        fetchedAt: 0,
+                        data: {
+                          ok: false,
+                          source: 'fallback',
+                          value_today: 0,
+                          value_at_horizon: 0,
+                          error: e instanceof Error ? e.message : 'Failed to fetch vehicle value',
+                        },
+                        inFlight: null,
+                      })
+                      setVehVal({
+                        ok: false,
+                        source: 'fallback',
+                        value_today: 0,
+                        value_at_horizon: 0,
+                        error: e instanceof Error ? e.message : 'Failed to fetch vehicle value',
+                      })
+                    } finally {
+                      // no visible loading UI
                     }
-                    if (calcCategory === 'Real Estate') {
-                      const zip = reZip.trim()
-                      const city = reCity.trim()
-                      const state = reState.trim()
-                      if (zip || city || state) {
-                        setReAppLoading(true)
-                        try {
-                          const resp = await getRealEstateAppreciation({
-                            zip,
-                            city,
-                            state,
-                            property_type: reType,
-                            sqft: reSqft ? Number(reSqft) : undefined,
-                            bedrooms: reBedrooms ? Number(reBedrooms) : undefined,
-                            bathrooms: reBathrooms ? Number(reBathrooms) : undefined,
-                          })
-                          setReApp(resp)
-                        } catch (e) {
-                          setReApp({
-                            ok: false,
-                            source: 'fallback',
-                            appreciation_5y_pct: 0,
-                            error: e instanceof Error ? e.message : 'Failed to fetch appreciation',
-                          })
-                        } finally {
-                          setReAppLoading(false)
-                        }
-                      }
-                    }
-                  }}
-                >
-                  Calculate
-                </button>
-
-                {calcLoading ? <div className="muted" style={{ marginTop: 10 }}>Loading…</div> : null}
-                {calcError ? <div className="error">{calcError}</div> : null}
-              </div>
-
-              <div
-                className={`calcResultsShell ${
-                  calcResult?.status === 'Safe'
-                    ? 'calcResultsShell--safe'
-                    : calcResult?.status === 'Risky'
-                      ? 'calcResultsShell--risky'
-                      : calcResult?.status === 'Impossible'
-                        ? 'calcResultsShell--impossible'
-                        : calcResult?.status === 'Not recommended'
-                          ? 'calcResultsShell--notrec'
-                          : ''
-                }`}
-              >
-                {!calcResult ? (
-                  <div className="muted">Fill the inputs and press Calculate.</div>
-                ) : (
-                  <>
-                    <div className="calcResultsHeader">
-                      <div className="calcResultsTitle">
-                        {calcResult.status === 'Safe'
-                          ? 'You can afford this!'
-                          : calcResult.status === 'Risky'
-                            ? 'This is risky'
-                            : calcResult.status === 'Impossible'
-                              ? 'Impossible'
-                              : 'Not recommended'}
-                      </div>
-                      <div className="calcResultsSub">
-                        {calcResult.status === 'Safe'
-                          ? 'Your finances looks good for this purchase'
-                          : calcResult.status === 'Risky'
-                            ? 'Your buffer is tight for this purchase'
-                            : calcResult.status === 'Impossible'
-                              ? 'This payment will not pay off the loan'
-                              : 'This purchase will likely strain your budget'}
-                      </div>
-                      <div className="calcResultsMeta">
-                        {purchaseName({
-                          category: calcCategory,
-                          itemName: calcItemName,
-                          make: calcMake,
-                          model: calcModel,
-                          year: calcYear,
-                          reCity,
-                          reState,
-                          reZip,
-                        })}
-                      </div>
-                    </div>
-
-                    {calcPayMode === 'loan' ? (
-                      <div className="calcMetricsStrip">
-                        {(() => {
-                          const sMonthly = fmtMoney(calcResult.loan.payment)
-                          const sTotal = fmtMoney(calcResult.loan.totalPaid + (calcResult.loan.downPayment || 0))
-                          const sInterest = fmtMoney(calcResult.loan.interestPaid)
-                          const sMonths = String(calcResult.loan.termMonths)
-                          const fontSize = metricValueFontSizePx(
-                            [sMonthly, sTotal, sInterest, sMonths].reduce((a, b) => (a.length >= b.length ? a : b), '')
-                          )
-
-                          return (
-                            <>
-                        <div className="calcMetric">
-                          <div className="calcMetricLabel">Monthly Payment</div>
-                          <div className="calcMetricValue" style={{ fontSize }}>{sMonthly}</div>
-                        </div>
-                        <div className="calcMetric">
-                          <div className="calcMetricLabel">Total Paid</div>
-                          <div className="calcMetricValue" style={{ fontSize }}>{sTotal}</div>
-                        </div>
-                        <div className="calcMetric">
-                          <div className="calcMetricLabel">Interest</div>
-                          <div className="calcMetricValue" style={{ fontSize }}>{sInterest}</div>
-                        </div>
-                        <div className="calcMetric">
-                          <div className="calcMetricLabel">Months to pay</div>
-                          <div className="calcMetricValue" style={{ fontSize }}>{sMonths}</div>
-                        </div>
-                            </>
-                          )
-                        })()}
-                      </div>
-                    ) : null}
-
-                    <div className="calcInnerCard">
-                      <div className="panelTitle calcPanelTitleMedium">Value Analysis</div>
-                      <div className="dashRow" style={{ gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-                        <div className="stat">
-                          <div className="muted">Value today</div>
-                          <div className="statValue">{fmtMoney(calcResult.value.valueToday)}</div>
-                        </div>
-                        <div className="stat">
-                          <div className="muted">At horizon</div>
-                          <div className="statValue">{fmtMoney(calcResult.value.valueAtHorizon)}</div>
-                          <div className="muted">{fmtHorizonDuration(calcResult.value.horizonYears)}</div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="calcInnerCard">
-                      <div className="panelTitle calcPanelTitleMedium">Smart Tips</div>
-                      <div className="muted" style={{ marginBottom: 10 }}>See More Tips</div>
-                      <div className="list">
-                        {calcResult.tips.map((x, idx) => (
-                          <div key={idx} className="item" style={{ justifyContent: 'flex-start' }}>
-                            <div style={{ fontSize: 13 }}>{x}</div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
-          </div>
+                  }
+                }
+              }
+              if (calcCategory === 'Real Estate') {
+                const zip = reZip.trim()
+                const city = reCity.trim()
+                const state = reState.trim()
+                if (zip || city || state) {
+                  setReAppLoading(true)
+                  try {
+                    const resp = await getRealEstateAppreciation({
+                      zip,
+                      city,
+                      state,
+                      property_type: reType,
+                      sqft: reSqft ? Number(reSqft) : undefined,
+                      bedrooms: reBedrooms ? Number(reBedrooms) : undefined,
+                      bathrooms: reBathrooms ? Number(reBathrooms) : undefined,
+                    })
+                    setReApp(resp)
+                  } catch (e) {
+                    setReApp({
+                      ok: false,
+                      source: 'fallback',
+                      appreciation_5y_pct: 0,
+                      error: e instanceof Error ? e.message : 'Failed to fetch appreciation',
+                    })
+                  } finally {
+                    setReAppLoading(false)
+                  }
+                }
+              }
+            }}
+            calcLoading={calcLoading}
+            calcError={calcError}
+            calcResult={calcResult}
+            vehVal={vehVal}
+            fmtMoney={fmtMoney}
+            purchaseName={purchaseName}
+            fmtHorizonDuration={fmtHorizonDuration}
+            metricValueFontSizePx={metricValueFontSizePx}
+          />
         ) : (
           <div>
             <h1>{activeTab[0].toUpperCase() + activeTab.slice(1)}</h1>
